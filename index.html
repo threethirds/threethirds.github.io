@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>three/thirds</title>
+	<meta name="title" content="Three Thirds Consulting" />
+	<meta name="description" content="AI Consulting" />
+
+	<link rel="shortcut icon" id="favicon" href="favicon.png"> 
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+  <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <style>
+    html {
+      height: 100%;
+    }
+    body {
+      background: #E2E4E7;
+      color: black;
+      padding: 0;
+      text-align: center;
+      font-family: 'open sans';
+      position: relative;
+      margin: 0;
+      height: 100%;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrapper {
+    	height: 100% !important;
+    	height: 100%;
+    	margin: 0 auto; 
+    	overflow: hidden;
+    }
+    .page_container {
+      overflow: hidden;
+    }
+    a {
+      text-decoration: none;
+      color:black;
+    }
+    h1, h2 {
+      width: 100%;
+      float: left;
+    }
+    h1 {
+      letter-spacing: -4px;
+      font-weight: 100;
+      margin: 0;
+    }
+    strong {
+      font-weight: 600;
+    }
+    h2 {
+      font-weight: 100;
+      font-size: 20px;
+      margin: 0;
+    }
+    .main {
+      float: left;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .main section .page_container {
+      position: relative;
+      margin: 0 auto 0;
+      top: 50%;
+      max-width: 950px;
+      z-index: 3;
+    }
+    .main section  {
+      overflow: hidden;
+    }
+    .main section.page1 {
+      background:rgb(230, 217, 200);
+    }
+    .main section.page1 h1 {
+      text-align: left;
+      padding: 0;
+      margin: 40px 0 0 15px;
+      font-size: 70px;
+      color: black;
+    }
+    .main section.page1 h2 {
+      color: rgba(0,0,0,0.85);
+      margin: -15px 15px 0 0;
+      text-align: left;
+      padding-left: 170px;
+    }
+    .main section.page2 {
+      background-color:rgb(211, 195, 174);
+    }
+    .main section.page2 .page_container {
+      top: 0%;
+    }
+    /* .main section.page2 .page_container:before {
+      content: '';
+      display: inline-block;
+      height: 100%; 
+      vertical-align: middle;
+      margin-right: -0.25em;
+    } */
+    .main section.page2 h1 {
+      font-weight: 600;
+      letter-spacing: -1px;
+    }
+    .team {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .person {
+      max-width: 500px;
+      max-height: 200px;
+      float: left;
+    }
+    .person img {
+      float:left;
+      max-width: 150px;
+      border-radius: 50%;
+    }
+    .person figcaption {
+      float:left;
+      text-align: left;
+      width: 280px;
+      height: 150px;
+      padding-left: 20px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .main section.page3 {
+      background:rgb(230, 217, 200);
+    }
+    .main section.page3 h1 {
+      text-align: left;
+      padding: 0;
+      margin-left: 15px;
+      font-size: 45px;
+      letter-spacing: -1px;
+    }
+    
+    body.disabled-onepage-scroll .onepage-wrapper  section {
+      min-height: 100%;
+      height: auto;
+    }
+    body.disabled-onepage-scroll .page_container {
+      margin-top: 50%;
+      padding: 20px;
+    }
+    body.disabled-onepage-scroll section.page2 .page_container {
+      margin-top: 0;
+    }
+
+    body.disabled-onepage-scroll section.page1 h1 {
+      font-size: 50px;
+    }
+    body.disabled-onepage-scroll section.page1 h2 {
+      font-size: 20px;
+    }
+
+    body.disabled-onepage-scroll section.page2 h1 {
+      font-size: 20px;
+    }
+    body.disabled-onepage-scroll section.page2 h2 {
+      font-size: 20px;
+    }
+
+    body.disabled-onepage-scroll section.page3 h1 {
+      font-size: 20px;
+    }
+
+    body.disabled-onepage-scroll .person figcaption {
+      float:left;
+      text-align: left;
+      padding: 0;
+      height: 150px; */
+    }
+
+    body.disabled-onepage-scroll .person {
+      max-height: none;
+      margin: 0;
+    }
+    body.disabled-onepage-scroll .main section.page3 .page_container {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      right: 0;
+    }
+  </style>
+  
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: false,
+        updateURL: true,
+      });
+		});
+		
+	</script>
+</head>
+
+<body>
+  <div class="wrapper">
+	  <div class="main">
+	    
+      <section class="page1">
+        <div class="page_container">
+          <h1>three<strong>thirds</strong></h1>
+          <h2>AI consulting</h2>
+  	    </div>
+      </section>
+	    
+	    <section class="page2">
+	      <div class="page_container">
+          
+          <div class="team">
+            <figure class="person">
+              <img src="jonas.png" alt="Jonas Kubilius">
+              <figcaption>
+                <h1>Jonas Kubilius PhD</h1>
+                <h2>Image processing, recurrent neural networks</h2>
+              </figcaption>
+            </figure>
+
+            <figure class="person">
+                <img src="jurgis.jpg" alt="Jurgis Pašukonis">
+                <figcaption>
+                  <h1>Jurgis Pašukonis PhD</h1>
+                  <h2>Route optimization, big data</h2>
+                </figcaption>
+              </figure>
+
+            <figure class="person">
+                <img src="paulius.jpg" alt="Paulius Šarka">
+                <figcaption>
+                  <h1>Paulius Šarka PhD</h1>
+                  <h2>Signal processing</h2>
+                </figcaption>
+            </figure>
+          </div>
+
+        </div>
+      </section>
+	    
+	    <section class="page3">
+	      <div class="page_container">
+          <h1><a href="mailto:info@threethirds.ai">info@three<strong>thirds</strong>.ai</h1>
+  	    </div>
+      </section>
+    </div>
+  </div>
+</body>
+
+</html>
