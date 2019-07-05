@@ -13,7 +13,6 @@
  * License: GPL v3
  *
  * ========================================================== */
-
 !function($){
 
   var defaults = {
@@ -230,6 +229,13 @@
         if(typeOFv == "number"){
           valForTest = $(window).width() < valFunction;
         }
+      }
+      if(typeOfRF == "object"){
+        valForTest = $(window).width() < settings.responsiveFallback[0] ||
+                     $(window).height() < settings.responsiveFallback[1];
+        console.log($(window).width() < settings.responsiveFallback[0]);
+        console.log($(window).height() < settings.responsiveFallback[1]);
+        console.log(typeof settings.responsiveFallback[1]);
       }
 
       //end modification
