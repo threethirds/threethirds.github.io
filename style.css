@@ -110,7 +110,7 @@ section.intro h1 {
 section.intro h2 {
     text-transform:none;
     margin-top:20px;
-    font-size:16px;
+    font-size:17px;
     font-weight:500;
 }
 
@@ -136,6 +136,10 @@ section.whatwedo .normal {
     text-align:center;
 }
 
+section.whatwedo div.main {
+    margin-top: 45px;
+}
+
 section.whatwedo .industries li {
     padding:30px 10px;
     flex-basis:25%;
@@ -151,11 +155,12 @@ section.whatwedo .industries figure {
 section.whatwedo .industries li img {
     max-width:30%;
     max-height:30%;
-    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(13deg) brightness(95%) contrast(80%);
+    filter: grayscale(1);
+    /* filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(13deg) brightness(95%) contrast(80%); */
 }
 
 section.whatwedo .industries li figcaption {
-    font-size:16px;
+    font-size:20px;
     font-weight:700;
     color:black;
 }
@@ -169,15 +174,22 @@ section.whatwedo .value .column {
 }
 
 section.whatwedo ul ul {
-    font-size:16px;
+    font-size:17px;
     list-style:square;
     list-style-position:inside;
     margin-left:10px;
 }
 
+section.whatwedo img {
+    width: 45%;
+}
+
 @media screen and (max-width:800px) {
     section.whatwedo .grid li {
         flex-basis:100%;
+    }
+    section.whatwedo img {
+        width: 100%;
     }
 }
 
@@ -201,13 +213,15 @@ section.portfolio figure {
 }
 
 section.portfolio li img {
-    max-width:30%;
-    max-height:30%;
-    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(0deg) brightness(95%) contrast(80%);
+    /* max-width:30%; */
+    /* max-height:30%; */
+    height:160px;
+    /* filter: grayscale(1); */
+    /* filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(0deg) brightness(95%) contrast(80%); */
 }
 
 section.portfolio li figcaption {
-    font-size:16px;
+    font-size:17px;
     font-weight:700;
     color:black;
 }
@@ -218,12 +232,12 @@ section.portfolio figcaption .topic {
 }
 
 section.portfolio figcaption .client {
-    font-size:16px;
+    font-size:17px;
     font-weight:700;
 }
 
 section.portfolio figcaption .description {
-    font-size:16px;
+    font-size:17px;
     font-weight:300;
 }
 
@@ -251,7 +265,7 @@ section.team li {
 }
 
 section.team figure {
-    font-size:16px;
+    font-size:17px;
     min-height:350px;
 }
 section.team img {
@@ -277,7 +291,7 @@ section.team .name {
 
 section.team .position {
     font-weight:700;
-    font-size:16px;
+    font-size:17px;
 }
 
 @media screen and (max-width:800px) {
@@ -320,7 +334,7 @@ section.contact .grid {
 
 section.contact .info {
     padding-top:100px;
-    font-size:16px;
+    font-size:17px;
 }
 
 section.contact .info li {
