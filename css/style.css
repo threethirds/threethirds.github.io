@@ -1,0 +1,632 @@
+/* ---------------- DEFAULT STYLE ------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    color: #333;
+    background-color: white;
+    font: normal 20px 'Source Sans Pro', 'Open Sans', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+    color: #111;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    max-height: 50vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 80px;
+}
+
+section h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 7px;
+
+}
+
+section h3 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 650px) {
+    section {
+        padding: 0 20px;
+    }
+}
+
+.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 0;
+}
+
+@media screen and (max-width: 1040px) {
+    .content {
+        padding: 0 20px;
+    }
+}
+
+.light {
+    font-weight: 300;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+/* --------------- HEADER and NAVIGATION ----------- */
+
+header {
+    background: black;
+    position: sticky;
+    top: 0;
+    display: flex;
+    /* make logo stay on the left and nav on the right */
+    /* max-width: 800px; */
+    justify-content: center;
+    height: 50px;
+    padding: 0 10px;
+    /* make sure header is above all other content */
+    z-index: 1;
+}
+
+.header-content {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    filter: invert(100%)
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul a:hover {
+    border-top: #eee 1px solid;
+}
+
+nav ul ul a:hover {
+    border-top: black 1px solid;
+    border-left: #eee 1px solid;
+}
+
+nav ul a {
+    /* fill the entire nav height so that the entire height is clickable */
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #eee;
+    border-top: black 1px solid;
+}
+
+nav ul ul {
+    /* do not allow this submenu interfere with the main menu */
+    position: absolute;
+    /* display submenu items as a normal list, not inline */
+    display: block;
+    background: black;
+    visibility: hidden;
+    padding-bottom: 10px;
+}
+
+nav ul ul a {
+    height: 30px;
+    font-size: 14px;
+    /* indent a bit the second level of list */
+    margin-left: 20px;
+    border-left: black 1px solid;
+}
+
+nav ul li:hover > ul {
+    visibility: visible;
+}
+
+/* when menu button is clicked, this checkbox is checked */
+#show-menu {
+    display: none;
+}
+
+/* deal with menu button */
+.menu-icon {
+    display: none;
+    height: 50px;
+    cursor: pointer;
+    background-color: black;
+}
+
+.menu-icon:before {
+    content: "";
+    font-size: 24px;
+    width: 24px;
+    height: 4px;
+    border-top: 12px double #eee;
+    border-bottom: 4px solid #eee;
+}
+
+
+@media screen and (max-width: 420px) {
+    .menu-icon {
+        display: flex;
+        align-items: center;
+    }
+
+    /* hide menu by default */
+    nav {
+        display: none;
+    }
+
+    /* when user clicks on the hamburger, show menu */
+    header > input:checked ~ nav {
+        display: flex;
+    }
+
+    nav > ul {
+        background: black;
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 100%;
+    }
+
+    nav ul ul {
+        position: relative;
+        visibility: visible;
+    }
+
+}
+
+/* --------------------- INTRO ----------------- */
+
+section.intro {
+    color: #eee;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section.intro .content {
+    color: #eee;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    animation: slidefade 1s;
+}
+
+@keyframes slidefade {
+    from {
+        opacity: 0;
+        margin: 10px;
+    }
+
+    to {
+        opacity: 1;
+        margin: 0;
+    }
+}
+
+section.intro h1 {
+    font-size: 80px;
+    color: #eee;
+}
+
+section.intro h2 {
+    text-transform: none;
+    letter-spacing: normal;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #eee;
+}
+
+section.intro img {
+    max-width: 600px;
+    /* center around the 3/3 emblem */
+    margin-left: 40px;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 650px) {
+    section.intro h1 {
+        font-size: 13vw;
+    }
+
+    section.intro img {
+        max-width: 100%;
+    }
+}
+
+
+/* --------------------- OUR SERVICES ----------------- */
+
+section.services {
+    padding: 0;
+}
+
+section.services .content {
+    padding-bottom: 70px;
+    margin-bottom: 0;
+    border-bottom: 5px solid black;
+}
+
+section.services .service-card {
+    max-width: 1000px;
+}
+
+section.services.for-smes .service-card {
+    /* right-justify this section */
+    margin-left: auto;
+}
+
+@media screen and (max-width: 800px) {
+    section.services.for-smes .service-card {
+        margin-left: 0;
+    }
+}
+
+section.services .service-card .description {
+    max-width: 600px;
+}
+
+section.services .service-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.services li {
+    padding: 30px 10px;
+    flex-basis: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+section.services figure {
+    text-align: center;
+}
+
+section.services li img {
+    height: 660px;
+}
+
+section.services figcaption {
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+}
+
+section.services figcaption .topic {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+section.services figcaption .client {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+section.services figcaption .description {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+/* section.services .read-more {
+    font-size: 14px;
+    font-weight: 300;
+} */
+
+@media screen and (max-width: 600px) {
+    section.services .service-list {
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    section.services .grid li {
+        flex-basis: 100%;
+    }
+}
+
+section.services.for-enterprises .content {
+    border-bottom-width: 0;
+}
+
+/* --------------------- OUR PORTFOLIO ----------------- */
+
+section.rnd {
+    padding: 0;
+    background-color: #2e130c;
+    color: #eee;
+}
+
+section.rnd h2,
+section.rnd h3,
+section.rnd p,
+section.rnd a {
+    color: #eee;
+}
+
+section.rnd a {
+    color: #eee;
+    font-weight: 700;
+}
+
+section.rnd .grid {
+    flex-direction: column;
+}
+
+section.rnd li {
+    padding: 10px 10px;
+    flex-basis: 33%;
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+
+}
+
+section.rnd .content > .description {
+    margin-bottom: 25px;
+}
+
+section.rnd figure {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width: 420px) {
+    section.rnd figure {
+        flex-direction: column;
+    }
+
+    section.rnd li figcaption {
+        text-align: center;
+    }
+
+    section.rnd figcaption .year {
+        margin-top: 0;
+    }
+}
+
+section.rnd li img {
+    height: 100px;
+}
+
+section.rnd li figcaption {
+    padding-left: 20px;
+    font-size: 16px;
+    /* font-weight: 400; */
+    color: #eee;
+}
+
+section.rnd figcaption .topic {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+section.rnd figcaption .description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+section.rnd figcaption .year {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+@media screen and (max-width: 800px) {
+    section.rnd .grid li {
+        flex-basis: 100%;
+    }
+}
+
+
+/* --------------------- TEAM ----------------- */
+
+section.team h3 {
+    margin-bottom: 5vh;
+}
+
+section.team .content {
+    margin-bottom: 0;
+}
+
+section.team li {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0 10px 70px 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+section.team figure {
+    font-size: 17px;
+}
+
+section.team img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #bbb;
+}
+
+section.team figcaption img {
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+section.team figcaption {
+    height: 150px;
+}
+
+section.team .name {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+section.team .position {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 800px) {
+    section.team .grid li {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+section.co-founders .content {
+    margin-top: 0;
+    max-width: 700px;
+}
+
+section.co-founders h2 {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    section.co-founders .content {
+        max-width: 400px;
+    }
+}
+
+
+/* --------------------- CONTACT ----------------- */
+
+section.contact {
+    color: #eee;
+    background-color: black;
+}
+
+section.contact h2 {
+    font-size: 48px;
+    text-transform: none;
+    letter-spacing: normal;
+    margin-bottom: 10vh;
+    color: #eee;
+}
+
+section.contact a {
+    color: #eee;
+}
+
+section.contact .email {
+    font-size: 36px;
+    padding: 50px 0;
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    section.contact .email {
+        font-size: 8vw;
+    }
+}
+
+section.contact .grid {
+    align-items: center;
+}
+
+section.contact .info {
+    padding-top: 100px;
+    font-size: 16px;
+}
+
+section.contact .info li {
+    flex-basis: 33%;
+}
+
+section.contact .icons li {
+    display: block;
+    float: left;
+    margin: 0 10px;
+    padding: 0;
+}
+
+section.contact .icons img {
+    max-width: 24px;
+}
+
+@media screen and (max-width: 800px) {
+    section.contact .grid li {
+        flex-basis: 100%;
+    }
+
+    section.contact ul {
+        margin-top: 10px;
+    }
+}
+
