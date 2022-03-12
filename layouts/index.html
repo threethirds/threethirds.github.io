@@ -1,0 +1,154 @@
+{{ define "main" }}
+{{ $root := .Site.BaseURL | replaceRE "/$" ""}}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ $startups    := dict "service" $data.services.startups    "cases" (slice $data.cases.strato  $data.cases.turimeda) }}
+{{ $smes        := dict "service" $data.services.smes        "cases" (slice $data.cases.rubedos $data.cases.flexblow) }}
+{{ $enterprises := dict "service" $data.services.enterprises "cases" (slice $data.cases.girteka                     ) }}
+{{ $services    := slice $startups $smes $enterprises }}
+
+<section class="intro">
+    <div class="content">
+        <h1><span class="light">{{i18n "three"}}</span><span class="bold">{{i18n "thirds"}}</span></h1>
+        <img src="{{$root}}/emblem.png">
+        <h2>{{T "we_build"}}</h2>
+    </div>
+</section>
+
+{{ range $services }}
+<section id="{{.service.id}}" class="services for-{{.service.id}}">
+    <div class="content">
+        <div class="service-card">
+            <h2>{{.service.h2}}</h2>
+            <h3>{{.service.h3}}</h3>
+            <p class="description">{{.service.p}}</p>
+        </div>
+        <div class="service-list">
+            {{ range .cases}}
+            <figure>
+                <img src="{{$root}}/{{.img}}" alt="{{.topic}}">
+                <figcaption>
+                    <p class="topic">{{.topic}}</p>
+                    <p class="client">{{.client}}</p>
+                    <p class="description">{{.description}}</p>
+                    <!-- <p class="read-more">read more...</p> -->
+                </figcaption>
+            </figure>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
+<section id="rnd" class="rnd">
+    <div class="content">
+        <h2>{{$data.rnd.h2}}</h2>
+        <h3>{{$data.rnd.h3}}</h3>
+        <p class="description">{{$data.rnd.p}}</p>
+
+        <ul class="grid">
+            {{ range $data.projects }}
+            <li>
+                <figure>
+                    <img src="{{$root}}/{{.img}}" alt="{{.topic}}">
+                    <figcaption>
+                        <p class="topic">{{.topic}}</p>
+                        <p class="description">{{.description}}</p>
+                        <p class="year">{{.year}}</p>
+                    </figcaption>
+                </figure>
+            </li>
+            {{ end }}
+        </ul>
+
+    </div>
+</section>
+
+
+<section id="team" class="team">
+    <div class="content">
+        <h2>{{$data.team.h2}}</h2>
+        <h3>{{$data.team.h3}}</h3>
+
+        <ul class="grid">
+            {{ range $data.team.members }}
+            <li>
+                <figure class="person">
+                    <img src="{{$root}}/{{.img}}" alt="{{.name}}">
+                    <figcaption>
+                        <p class="name">{{.name_long}}</p>
+                        <p class="position">{{.position}}</p>
+                        <p>{{.description}}</p>
+                        <a href="{{.linkedin}}"><img src="{{$root}}/icons/linkedin-dark.png" width="20px"></a>
+                    </figcaption>
+                </figure>
+            </li>
+            {{ end }}
+        </ul>
+
+    </div>
+</section>
+
+<section class="team co-founders">
+    <div class="content">
+        <h2>{{T "co_founders"}}</h2>
+        <ul class="grid">
+            {{ range $data.team.founders }}
+            <li>
+                <figure class="person">
+                    <img src="{{$root}}/{{.img}}" alt="{{.name}}">
+                    <figcaption>
+                        <p class="name">{{.name_long}}</p>
+                        <p class="position">{{.position}}</p>
+                        <p>{{.description}}</p>
+                        <a href="{{.linkedin}}"><img src="{{$root}}/icons/linkedin-dark.png" width="20px"></a>
+                    </figcaption>
+                </figure>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="content">
+        <h2>{{T "lets_talk"}}!</h2>
+        <p class="normal">{{T "got_a_problem" }}?</p>
+        <p class="normal">{{T "lets_discuss" }}!</p>
+
+        <p class="email"><a href="mailto:info@threethirds.ai">
+            <span class="light">info@three</span><span class="bold">thirds</span>.ai</a></p>
+
+        <div class="info">
+            <p class="bold">UAB „Trys trečiosios“</p>
+            <ul class="grid">
+                <li>
+                    <ul class="icons">
+                        <li><a href="https://github.com/threethirds"><img src="{{$root}}/icons/github.png"></a></li>
+                        <li><a href="https://github.com/human-ui"><img src="{{$root}}/icons/github.png"></a></li>
+                        <li><a href="https://www.linkedin.com/company/three-thirds-ai"><img
+                                src="{{$root}}/icons/linkedin-light.png"></a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>M. K. Paco g. 19-10</li>
+                        <li>LT-10309 Vilnius</li>
+                        <li>{{T "lithuania"}}</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>{{T "company_code"}}: 305239772</li>
+                        <li>{{T "vat_number"}}: LT100012621716</li>
+                        <li>IBAN: LT797300010160013811</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+{{ end}}

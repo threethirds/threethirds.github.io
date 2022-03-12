@@ -1,0 +1,12 @@
+baseURL = "https://threethirds.ai"
+languageCode = "en-us"
+title = "Three Thirds"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# Languages
+defaultContentLanguage = 'en'
+[languages]
+    [languages.en]
+        contentDir = 'content/en'
+    [languages.lt]
+        contentDir = 'content/lt'

@@ -1,0 +1,7 @@
+h2 = 'Research & Development'
+h3 = 'Deep expertise in the fast-moving field'
+p = """
+We are passionate about AI and innovation in the field. Keeping up with the literature and playing around
+with the latest technologies serves as a gym for machine learning muscles. Here are some of the latest
+projects we've been working on:
+"""

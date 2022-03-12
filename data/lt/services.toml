@@ -1,0 +1,30 @@
+[startups]
+id = "startups"
+h2 = "For startups"
+h3 = "Move fast and test your ideas"
+p = """
+Do you have a ground-breaking product idea that needs AI but your team lacks experience to build it?
+Hiring experts and building in-house expertise takes time. Focus on delivering value to your
+customers and we'll take care of building top-notch prototypes and MVPs of your vision.
+"""
+
+[smes]
+id = "smes"
+h2 = "For SMEs"
+h3 = "Increase product value with AI"
+p = """
+Do you need AI-driven capabilities to increase your product's value proposition? Let us hear out
+your needs, analyze the problem in depth, and deliver the best solution, working hand in hand with
+your team.
+"""
+
+[enterprises]
+id = "enterprises"
+h2 = "For Enterprises"
+h3 = "Gain access to specific expertise"
+p = """
+Do you have a well-defined problem and are looking for a specific expertise to complement your
+in-house R&D team's skills? We have experience in understanding complex setups and guiding clients
+through the process. Our team can offer agile, high-quality solutions and novel perspectives how to
+address your needs.
+"""

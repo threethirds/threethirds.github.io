@@ -1,0 +1,29 @@
+[strato]
+client = 'Strato.homes'
+description = 'Modular house planning'
+img = 'icons/strato.png'
+topic = 'Constraint Optimization'
+
+[turimeda]
+client = 'Turimeda'
+description = 'Aortic aneurysm quantification from CT scans'
+img = 'icons/aorta.png'
+topic = 'Medical Image Analysis'
+
+[rubedos]
+client = 'Rubedos'
+description = 'Pallet detection system'
+img = 'icons/rubedos.png'
+topic = '3D Image Analysis'
+
+[flexblow]
+client = 'FlexBlow'
+description = 'Real-time bottle blowing control system'
+img = 'icons/flexblow.png'
+topic = 'Optimal Control'
+
+[girteka]
+client = 'Girteka'
+description = 'Operational change impact measurement'
+img = 'icons/bct.png'
+topic = 'Causal Analysis'

@@ -1,0 +1,66 @@
+h2 = "Team"
+h3 = "Meet our ML/AI experts"
+
+[[members]]
+name = "Jonas Kubilius"
+name_long = "Jonas Kubilius, PhD, MIT'08"
+img = "team/jonas.jpg"
+position = "Co-Founder and Senior AI Engineer"
+description = "AI researcher & machine vision expert with publications at NeurIPS and 1000+ citations"
+linkedin = "https://www.linkedin.com/in/qbilius/"
+
+[[members]]
+name = "Paulius Šarka"
+name_long = "Paulius Šarka, PhD"
+img = "team/paulius.jpg"
+position = "Co-Founder and Senior AI Engineer"
+description = "Data product owner & engineer of sensor-based solutions, 5+ years of industry experience / ex-Sony"
+linkedin = "https://www.linkedin.com/in/pauliussarka/"
+
+[[members]]
+name = "Linas Klimas"
+name_long = "Linas Klimas"
+img = "team/linas.jpg"
+position = "AI Engineer"
+description = "Reinforcement learning expert & backend engineer"
+linkedin = "https://www.linkedin.com/in/linasklimas/"
+
+[[members]]
+name = "Gražvydas Šemetulskis"
+name_long = "Gražvydas Šemetulskis, PhD"
+img = "team/grazvydas.jpg"
+position = "AI Engineer"
+description = "Fraud detection expert & key contributor to HyphBot detection / ex-AdForm"
+linkedin = "https://www.linkedin.com/in/grazvydasem/"
+
+[[members]]
+name = "Lukas Dundulis"
+name_long = "Lukas Dundulis"
+img = "team/lukas.jpg"
+position = "AI Intern"
+description = "BSc Math student @ ETH Zürich"
+linkedin = "https://www.linkedin.com/in/lukas-dundulis/"
+
+[[members]]
+name = "Kristijonas Raudys"
+name_long = "Kristijonas Raudys"
+img = "team/kristijonas.jpg"
+position = "Junior AI Researcher"
+description = "MSc Statistics student @ ETH Zürich"
+linkedin = "https://www.linkedin.com/in/kristijonasraudys/"
+
+[[founders]]
+name = "Jurgis Pašukonis"
+name_long = "Jurgis Pašukonis, PhD, MIT'05"
+img = "team/jurgis.jpg"
+position = "Co-Founder"
+description = "Technological strategist, AI researcher & engineer / ex-Trafi"
+linkedin = "https://www.linkedin.com/in/jurgispasukonis/"
+
+[[founders]]
+name = "Tomas Dirvonskas"
+name_long = "Tomas Dirvonskas"
+img = "team/tomas.jpg"
+position = "Co-Founder and Advisor"
+description = "Business strategist & customer experience lead of a team 100+ / ex-Treatwell"
+linkedin = "https://www.linkedin.com/in/tdirvonskas/"

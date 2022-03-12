@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{ $root := .Site.BaseURL | replaceRE "/$" ""}}
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>three/thirds</title>
+
+    <meta name="title" content="Three Thirds"/>
+    <meta name="description" content="AI Solutions Company"/>
+
+    <link rel="stylesheet" href="{{$root}}/css/style.css">
+    <link rel="shortcut icon" id="favicon" href="{{$root}}/icons/favicon.png">
+    <link rel="icon" href="{{$root}}/icons/favicon.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet" type="text/css">
+    <!-- Look ma, no JavaScript and the page still works! -->
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+        <a href="#" class="logo"><img src="{{$root}}/icons/favicon.png"></a>
+
+        <!-- When menu button is clicked, this checkbox is checked -->
+        <input type="checkbox" id="show-menu" name="show-menu" />
+
+        <nav>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#services">Services</a>
+                    <ul>
+                        <li><a href="#startups">For startups</a>
+                        <li><a href="#smes">For SMEs</a>
+                        <li><a href="#enterprises">For enterprises</a>
+                    </ul>
+                </li>
+                <li><a href="#rnd">R&D</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">{{ .Site.Language | upper }}</a>
+                    <ul>
+                        {{ range $.Page.AllTranslations }}
+                        <li><a href="{{ .Permalink }}">{{ .Language | upper }}</a></li>
+                        {{ end }}
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- This label becomes the hamburger menu icon -->
+        <label for="show-menu" class="menu-icon"></label>
+    </div>
+</header>
+
+{{ block "main" . }}
+{{ end}}
+
+</body>
+</html>
