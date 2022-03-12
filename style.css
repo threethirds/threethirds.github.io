@@ -192,7 +192,6 @@ nav ul li:hover>ul {
 /* deal with menu button */
 .menu-icon {
     display: none;
-    width: 24;
     height: 50px;
     cursor: pointer;
     background-color: black;
@@ -369,13 +368,6 @@ section.services .tags span {
 section.services .service-list {
     display: flex;
     justify-content: space-between;
-    align-items: top;
-}
-
-
-
-section.services .grid {
-    align-items: top;
 }
 
 section.services li {
@@ -569,7 +561,7 @@ section.team figcaption img {
 }
 
 section.team figcaption {
-    height: ÷ 150px;
+    height: 150px;
 }
 
 section.team .name {
