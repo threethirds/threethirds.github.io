@@ -1,6 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cases on Three Thirds</title><link>https://threethirds.ai/cases/</link><description>Recent content in Cases on Three Thirds</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://threethirds.ai/cases/index.xml" rel="self" type="application/rss+xml"/><item><title>FlexBlow</title><link>https://threethirds.ai/cases/flexblow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://threethirds.ai/cases/flexblow/</guid><description>FlexBlow FlexBlow is an SME specializing in PET bottle manufacturing and equipment. Their flagship product is a stretch blow molding machine that can be flexibly reconfigured to different bottles. A newly planned feature of this machine is an autonomous bottle quality control.
-Our initial task was to program the control algorithm, that automatically adjusts operational parameters based on the control sensor output. Unfortunatelly, the control sensor was inadequate for the task, so we took a lead on designing and sourcing the parts for the new sensor as well.</description></item><item><title>girteka</title><link>https://threethirds.ai/cases/girteka/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://threethirds.ai/cases/girteka/</guid><description>Girteka Girteka is the largest full truck load transport company in Europe, with more than 8000 trucks in it&amp;rsquo;s fleet. In 2020 they started digital transformation and were onboarding a vendor for load planning optimization.
-We were tasked with accurate measurement of the impact. We delivered a suite of KPIs that were aligned with all of the stakeholders, as well as implementation of neccessary computations, a dashboard for visualization, and a detailed documentation.</description></item><item><title>rubedos</title><link>https://threethirds.ai/cases/rubedos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://threethirds.ai/cases/rubedos/</guid><description>rubedos Rubedos is an SME specializing in mobile robotics. One of their products is a control suite for an autonomous forklift. The forklift is able to autonomously locate a pallet in a loading zone and transfer it to the target location.
-In the initial phase of the development they needed a boost in their computer vision capacity and we joined them for 8 months and developed a pallet detection and localisation stack.</description></item><item><title>strato.homes</title><link>https://threethirds.ai/cases/strato/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://threethirds.ai/cases/strato/</guid><description>strato.homes strato.homes is an exciting startup in a modular construction space that builds homes in 3 months from the purchase to the move-in. A part of their vision is an AI planner, that would create a floor-plan based on (1) buyer&amp;rsquo;s choices and (2) engineering restrictions imposed by their modular system.
-We took on the challenge and built the PoC AI planner in 7 months. Our deliverable was a floor-plan generation algorithm, a cloud infrastructure setup for high intensity computations, a backend service and a user interface for the exploration of results.</description></item><item><title>turimeda</title><link>https://threethirds.ai/cases/turimeda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://threethirds.ai/cases/turimeda/</guid><description>turimeda Turimeda is an early stage medtech startup that want&amp;rsquo;s to measure and monitor internal organs without tedious manual labeling effort. Their first product measures the dilatation of aorta based on raw CT scans and tracks the development of the condition over time.
-We are responsible for building the CT scan segmentation part of the App. Our MVP deliverable is able to accurately (dice index &amp;gt; 0.9) segment the aorta, construct a 3D body and measure the volume of the aneurysm.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cases on Three Thirds</title>
+    <link>https://threethirds.ai/cases/</link>
+    <description>Recent content in Cases on Three Thirds</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://threethirds.ai/cases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FlexBlow</title>
+      <link>https://threethirds.ai/cases/flexblow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://threethirds.ai/cases/flexblow/</guid>
+      <description>FlexBlow FlexBlow is an SME specializing in PET bottle manufacturing and equipment. Their flagship product is a stretch blow molding machine that can be flexibly reconfigured to different bottles. A newly planned feature of this machine is an autonomous bottle quality control.
+Our initial task was to program the control algorithm, that automatically adjusts operational parameters based on the control sensor output. Unfortunatelly, the control sensor was inadequate for the task, so we took a lead on designing and sourcing the parts for the new sensor as well.</description>
+    </item>
+    
+    <item>
+      <title>girteka</title>
+      <link>https://threethirds.ai/cases/girteka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://threethirds.ai/cases/girteka/</guid>
+      <description>Girteka Girteka is the largest full truck load transport company in Europe, with more than 8000 trucks in it&amp;rsquo;s fleet. In 2020 they started digital transformation and were onboarding a vendor for load planning optimization.
+We were tasked with accurate measurement of the impact. We delivered a suite of KPIs that were aligned with all of the stakeholders, as well as implementation of neccessary computations, a dashboard for visualization, and a detailed documentation.</description>
+    </item>
+    
+    <item>
+      <title>rubedos</title>
+      <link>https://threethirds.ai/cases/rubedos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://threethirds.ai/cases/rubedos/</guid>
+      <description>rubedos Rubedos is an SME specializing in mobile robotics. One of their products is a control suite for an autonomous forklift. The forklift is able to autonomously locate a pallet in a loading zone and transfer it to the target location.
+In the initial phase of the development they needed a boost in their computer vision capacity and we joined them for 8 months and developed a pallet detection and localisation stack.</description>
+    </item>
+    
+    <item>
+      <title>strato.homes</title>
+      <link>https://threethirds.ai/cases/strato/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://threethirds.ai/cases/strato/</guid>
+      <description>strato.homes strato.homes is an exciting startup in a modular construction space that builds homes in 3 months from the purchase to the move-in. A part of their vision is an AI planner, that would create a floor-plan based on (1) buyer&amp;rsquo;s choices and (2) engineering restrictions imposed by their modular system.
+We took on the challenge and built the PoC AI planner in 7 months. Our deliverable was a floor-plan generation algorithm, a cloud infrastructure setup for high intensity computations, a backend service and a user interface for the exploration of results.</description>
+    </item>
+    
+    <item>
+      <title>turimeda</title>
+      <link>https://threethirds.ai/cases/turimeda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://threethirds.ai/cases/turimeda/</guid>
+      <description>turimeda Turimeda is an early stage medtech startup that want&amp;rsquo;s to measure and monitor internal organs without tedious manual labeling effort. Their first product measures the dilatation of aorta based on raw CT scans and tracks the development of the condition over time.
+We are responsible for building the CT scan segmentation part of the App. Our MVP deliverable is able to accurately (dice index &amp;gt; 0.9) segment the aorta, construct a 3D body and measure the volume of the aneurysm.</description>
+    </item>
+    
+  </channel>
+</rss>
