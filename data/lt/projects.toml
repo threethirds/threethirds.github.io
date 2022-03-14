@@ -1,29 +1,29 @@
 [swamp]
 img = 'icons/swamp-intelligence.png'
-topic = 'Swamp intelligence'
-description = 'A generative art project in collaboration with Nomeda & Gediminas Urbonas'
-year = '2017-present'
+topic = 'Pelkių intelektas'
+description = 'Generatyvinio meno projektas su Nomeda ir Gediminu Urbonais'
+year = '2017-dabar'
 
 [furuta]
 img = 'icons/furuta.png'
-topic = 'Furuta Pendulum'
-description = 'Sim2Real demonstration to keep pendulum upright'
-year = '2021-present'
+topic = 'Furuta švytuoklė'
+description = 'Sim2Real metodų demonstracija, balansuojant apverstą švytuoklę'
+year = '2021-dabar'
 
 [procgen]
 img = 'icons/procgen.png'
-topic = 'NeurIPS 2020 ProcGen Challenge'
-description = 'Ranked Top-5 with our reinforcement learning method'
+topic = 'NeurIPS 2020 ProcGen Konkursas'
+description = 'Mūsų skatinamojo mokymo algoritmas užėmė 5-ją vietą'
 year = '2021'
 
 [simulation]
 img = 'icons/sensmetry-sim.png'
-topic = 'Simulator for autonomous vehicle safety quantification'
-description = 'EU-funded R&D project led by <a href="https://sensmetry.com">Sensmetry</a></p>'
-year = '2020-present'
+topic = 'Simuliatorius autonominių automobilių saugumo įvertinimui'
+description = 'ES finansuojamas R&D projektas, vystomas <a href="https://sensmetry.com">UAB Sensmetry</a></p>'
+year = '2020-dabar'
 
 [babyui]
 img = 'icons/baby-ui.png'
 topic = 'Baby UI'
-description = 'Cutting-edge reinforcement learning method development'
+description = 'Inovatyvaus skatinamojo mokymo algoritmo kūrimas'
 year = '2020'

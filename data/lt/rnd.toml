@@ -1,7 +1,6 @@
-h2 = 'Research & Development'
-h3 = 'Deep expertise in the fast-moving field'
+h2 = 'Tyrimai ir inovacijos'
+h3 = 'Ekspertizė greitai besivystančioje DI srityje'
 p = """
-We are passionate about AI and innovation in the field. Keeping up with the literature and playing around
-with the latest technologies serves as a gym for machine learning muscles. Here are some of the latest
-projects we've been working on:
+Esame dirbtinio intelekto inovacijų entuziastai. Sekdami literatūrą ir išmėgindami naujausias technologijas, treniruojame ir savo mašininio mokymo raumenis. Keletas pastaraisiais metais
+įgyvendintų projektų:
 """

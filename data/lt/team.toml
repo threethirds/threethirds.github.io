@@ -1,20 +1,20 @@
-h2 = "Team"
-h3 = "Meet our ML/AI experts"
+h2 = "Komanda"
+h3 = "Susipažinkite su mūsų DI ekspertais"
 
 [[members]]
 name = "Jonas Kubilius"
 name_long = "Jonas Kubilius, PhD, MIT'08"
 img = "team/jonas.jpg"
-position = "Bendra-įkūrėjas ir vyresnysis DI inžinierius"
-description = "AI researcher & machine vision expert with publications at NeurIPS and 1000+ citations"
+position = "Bendraįkūrėjas ir vyriausiasis DI inžinierius"
+description = "DI tyrėjas ir kompiuterinės regos ekspertas, 4x publikavęsis NeurIPS, 1000+ citavimų; virš 10 metų patirties"
 linkedin = "https://www.linkedin.com/in/qbilius/"
 
 [[members]]
 name = "Paulius Šarka"
 name_long = "Paulius Šarka, PhD"
 img = "team/paulius.jpg"
-position = "Bendra-įkūrėjas ir vyresnysis DI inžinierius"
-description = "Data product owner & engineer of sensor-based solutions, 5+ years of industry experience / ex-Sony"
+position = "Bendraįkūrėjas ir vyriausiasis DI inžinierius"
+description = "Duomenų produktų kūrėjas ir inžinierius; virš 5 metų patirties industrijoje / ex-Sony"
 linkedin = "https://www.linkedin.com/in/pauliussarka/"
 
 [[members]]
@@ -23,6 +23,7 @@ name_long = "Linas Klimas"
 img = "team/linas.jpg"
 position = "DI inžinierius"
 description = "Reinforcement learning expert & backend engineer"
+description = "Skatinamojo mokymosi ekspertas ir inžinierius"
 linkedin = "https://www.linkedin.com/in/linasklimas/"
 
 [[members]]
@@ -30,7 +31,7 @@ name = "Gražvydas Šemetulskis"
 name_long = "Gražvydas Šemetulskis, PhD"
 img = "team/grazvydas.jpg"
 position = "DI inžinierius"
-description = "Fraud detection expert & key contributor to HyphBot detection / ex-AdForm"
+description = "Sukčiavimo aptikimo ekspertas, esmingai prisidėjęs prie HyphBot aptikimo / ex-AdForm"
 linkedin = "https://www.linkedin.com/in/grazvydasem/"
 
 [[members]]
@@ -38,7 +39,7 @@ name = "Lukas Dundulis"
 name_long = "Lukas Dundulis"
 img = "team/lukas.jpg"
 position = "DI stažuotojas"
-description = "BSc Math student @ ETH Zürich"
+description = "Matematikos bakalauro studentas @ ETH Zürich"
 linkedin = "https://www.linkedin.com/in/lukas-dundulis/"
 
 [[members]]
@@ -46,7 +47,7 @@ name = "Kristijonas Raudys"
 name_long = "Kristijonas Raudys"
 img = "team/kristijonas.jpg"
 position = "Jaunesnysis DI tyrėjas"
-description = "MSc Statistics student @ ETH Zürich"
+description = "Statistikos magistrantūros studentas @ ETH Zürich"
 linkedin = "https://www.linkedin.com/in/kristijonasraudys/"
 
 [[founders]]
@@ -54,7 +55,7 @@ name = "Jurgis Pašukonis"
 name_long = "Jurgis Pašukonis, PhD, MIT'05"
 img = "team/jurgis.jpg"
 position = "Bendra-įkūrėjas"
-description = "Technological strategist, AI researcher & engineer / ex-Trafi"
+description = "Technologijų strategas, DI tyrėjas ir inžinierius / ex-Trafi"
 linkedin = "https://www.linkedin.com/in/jurgispasukonis/"
 
 [[founders]]
@@ -62,5 +63,5 @@ name = "Tomas Dirvonskas"
 name_long = "Tomas Dirvonskas"
 img = "team/tomas.jpg"
 position = "Bendra-įkūrėjas ir patarėjas"
-description = "Business strategist & customer experience lead of a team 100+ / ex-Treatwell"
+description = "Verslo strategas, klientų patirties komandos vadovas / ex-Treatwell"
 linkedin = "https://www.linkedin.com/in/tdirvonskas/"

@@ -1,30 +1,28 @@
 [startups]
 id = "startups"
-h2 = "For startups"
-h3 = "Move fast and test your ideas"
+h2 = "Startuoliams"
+h3 = "Judėkite greitai ir išbandykite savo idėjas"
 p = """
-Do you have a ground-breaking product idea that needs AI but your team lacks experience to build it?
-Hiring experts and building in-house expertise takes time. Focus on delivering value to your
-customers and we'll take care of building top-notch prototypes and MVPs of your vision.
+Turite inovatyvią produkto idėją, kuriai reikia DI, bet jūsų komandai trūksta patirties? DI ekspertų
+subūrimas reikalauja laiko ir resursų. Sutelkite savo dėmesį į klientus ir kuriamą vertę, o
+mes pasirūpinsime jūsų vizijos prototipų sukūrimu.
 """
 
 [smes]
 id = "smes"
-h2 = "For SMEs"
-h3 = "Increase product value with AI"
+h2 = "Vidutinėms įmonėms"
+h3 = "Padidinkite produktų vertę su DI technologijomis"
 p = """
-Do you need AI-driven capabilities to increase your product's value proposition? Let us hear out
-your needs, analyze the problem in depth, and deliver the best solution, working hand in hand with
-your team.
+Jums reikia DI grįstų sprendimų, kad padidintumėte savo produkto vertę? Leiskite mums įsigilinti
+į Jūsų poreikį, išanalizuoti situaciją ir sukurti geriausią sprendimą, glaudžiai bendradarbiaujant
+su Jūsų komanda.
 """
 
 [enterprises]
 id = "enterprises"
-h2 = "For Enterprises"
-h3 = "Gain access to specific expertise"
+h2 = "Korporacijoms"
+h3 = "Pasitelkite specifines žinias ir patirtį"
 p = """
-Do you have a well-defined problem and are looking for a specific expertise to complement your
-in-house R&D team's skills? We have experience in understanding complex setups and guiding clients
-through the process. Our team can offer agile, high-quality solutions and novel perspectives how to
-address your needs.
+Turite aiškiai apibrėžtą užduotį, kuriai reikia specifinio jūsų R&D komandos pastiprinimo? Mes greitai
+įsigiliname į sudėtingus procesus, prisitaikome prie egzistuojančios infrastruktūros ir sukuriame aukštos kokybės sprendimus.
 """
