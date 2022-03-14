@@ -1,29 +1,29 @@
 [strato]
 client = 'Strato.homes'
-description = 'Modular house planning'
+description = 'Modulinių namų planavimas'
 img = 'icons/strato.png'
-topic = 'Constraint Optimization'
+topic = 'Apribojimų programavimas'
 
 [turimeda]
 client = 'Turimeda'
-description = 'Aortic aneurysm quantification from CT scans'
+description = 'Aortos aneurizmos matavimas KT vaizduose'
 img = 'icons/aorta.png'
-topic = 'Medical Image Analysis'
+topic = 'Medicininių vaizdų analizė'
 
 [rubedos]
 client = 'Rubedos'
-description = 'Pallet detection system'
+description = 'Palečių aptikimo sistema'
 img = 'icons/rubedos.png'
-topic = '3D Image Analysis'
+topic = '3D vaizdų analizė'
 
 [flexblow]
 client = 'FlexBlow'
-description = 'Real-time bottle blowing control system'
+description = 'Realaus laiko butelių pūtimo kontrolės sistema'
 img = 'icons/flexblow.png'
-topic = 'Optimal Control'
+topic = 'Optimali kontrolė'
 
 [girteka]
 client = 'Girteka'
-description = 'Operational change impact measurement'
+description = 'Proceso pokyčių įtakos matavimas'
 img = 'icons/bct.png'
-topic = 'Causal Analysis'
+topic = 'Priežastinė analizė'
