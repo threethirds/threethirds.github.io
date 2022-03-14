@@ -201,11 +201,6 @@ nav ul li:hover>ul {
     height: 24px;
 }
 
-/* when menu button is clicked, this checkbox is checked */
-#show-menu {
-    display: none;
-}
-
 /* deal with menu button */
 .menu-icon {
     display: none;
@@ -224,7 +219,6 @@ nav ul li:hover>ul {
     border-bottom: 4px solid #eee;
 }
 
-
 @media screen and (max-width: 520px) {
     .menu-icon {
         display: flex;
@@ -232,12 +226,12 @@ nav ul li:hover>ul {
     }
 
     /* hide menu by default */
-    #show-menu~nav {
+    #menu {
         display: none;
     }
 
-    /* when user clicks on the hamburger, show menu */
-    #show-menu:checked~nav {
+    /* when user clicks on the hamburger, show the menu, and hide again when a link on the menu is clicked */
+    #menu:target {
         display: flex;
     }
 
@@ -349,8 +343,6 @@ section.intro h2 {
 
 section.intro img {
     max-width: 600px;
-    /* center around the 3/3 emblem */
-    margin-left: 40px;
     padding: 10px 0;
 }
 

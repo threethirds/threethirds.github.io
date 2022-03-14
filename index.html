@@ -23,10 +23,7 @@
     <div class="header-content">
       <a href="#" class="logo"><img src="icons/favicon.png"></a>
 
-      <!-- When menu button is clicked, this checkbox is checked -->
-      <input type="checkbox" id="show-menu" name="show-menu" />
-
-      <nav>
+      <nav id="menu">
         <ul>
           <li><a href="#intro">Home</a></li>
           <li><span>Services</span>
@@ -48,10 +45,9 @@
         </ul>
       </nav>
 
-      <!-- This label becomes the hamburger menu icon -->
-      <label for="show-menu" class="menu-icon"></label>
+      <!-- Hamburger menu icon. When clicked, #menu appears -- only for small screens -->
+      <a href="#menu" class="menu-icon"></a>
     </div>
-
   </header>
 
   <section id="intro" class="intro">
@@ -62,7 +58,7 @@
     </div>
   </section>
 
-  <section id="startups" class="services for-startups">
+  <section id="startups" class="services for-startups" target="">
     <div class="content">
 
       <div class="service-card">
