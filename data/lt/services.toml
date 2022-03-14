@@ -3,7 +3,7 @@ id = "startups"
 h2 = "Startuoliams"
 h3 = "Judėkite greitai ir išbandykite savo idėjas"
 p = """
-Turite inovatyvią produkto idėją kuriai reikia DI, bet jūsų komandai trūksta patirties? Komandos
+Turite inovatyvią produkto idėją, kuriai reikia DI, bet jūsų komandai trūksta patirties? DI ekspertų
 subūrimas reikalauja laiko ir resursų. Sutelkite savo dėmesį į klientus ir kuriamą vertę, o
 mes pasirūpinsime jūsų vizijos prototipų sukūrimu.
 """
@@ -13,9 +13,9 @@ id = "smes"
 h2 = "Vidutinėms įmonėms"
 h3 = "Padidinkite produktų vertę su DI technologijomis"
 p = """
-Jums reikia DI grįstų pajėgumų, kad padidintumėt savo produkto vertę? Leiskite mums įsigilinti
-į jūsų poreikį, išanalizuoti situaciją ir sukurti geriausią sprendimą glaudžiai bendradarbiaujant
-su jūsų komanda.
+Jums reikia DI grįstų sprendimų, kad padidintumėte savo produkto vertę? Leiskite mums įsigilinti
+į Jūsų poreikį, išanalizuoti situaciją ir sukurti geriausią sprendimą, glaudžiai bendradarbiaujant
+su Jūsų komanda.
 """
 
 [enterprises]
@@ -23,7 +23,6 @@ id = "enterprises"
 h2 = "Korporacijoms"
 h3 = "Pasitelkite specifines žinias ir patirtį"
 p = """
-Turite aiškiai apibrėžtą užduotį ir reikia specifinio jūsų R&D komandos pastiprinimo? Mes greitai
-įsigiliname į sudėtingus procesus, prisitaikome prie egzisuojančios infrastruktūros, pasiūlome
-šviežią perspektyvą ir aukštos kokybės sprendimus.
+Turite aiškiai apibrėžtą užduotį, kuriai reikia specifinio jūsų R&D komandos pastiprinimo? Mes greitai
+įsigiliname į sudėtingus procesus, prisitaikome prie egzistuojančios infrastruktūros ir sukuriame aukštos kokybės sprendimus.
 """

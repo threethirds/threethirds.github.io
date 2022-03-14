@@ -1,20 +1,20 @@
 h2 = "Komanda"
-h3 = "Susipažinkite su mūsų DM/DI ekspertais"
+h3 = "Susipažinkite su mūsų DI ekspertais"
 
 [[members]]
 name = "Jonas Kubilius"
 name_long = "Jonas Kubilius, PhD, MIT'08"
 img = "team/jonas.jpg"
-position = "Bendraįkūrėjas ir vyresnysis DI inžinierius"
-description = "DI tyrėjas ir kompiuterinės regos ekspertas, publikavęsis NeurIPS ir turintis 1000+ citavimų"
+position = "Bendraįkūrėjas ir vyriausiasis DI inžinierius"
+description = "DI tyrėjas ir kompiuterinės regos ekspertas, 4x publikavęsis NeurIPS, 1000+ citavimų; virš 10 metų patirties"
 linkedin = "https://www.linkedin.com/in/qbilius/"
 
 [[members]]
 name = "Paulius Šarka"
 name_long = "Paulius Šarka, PhD"
 img = "team/paulius.jpg"
-position = "Bendraįkūrėjas ir vyresnysis DI inžinierius"
-description = "Duomenų produktų kūrėjas ir inžinierius, 5+ metai patirties industrijoje / ex-Sony"
+position = "Bendraįkūrėjas ir vyriausiasis DI inžinierius"
+description = "Duomenų produktų kūrėjas ir inžinierius; virš 5 metų patirties industrijoje / ex-Sony"
 linkedin = "https://www.linkedin.com/in/pauliussarka/"
 
 [[members]]
@@ -23,7 +23,7 @@ name_long = "Linas Klimas"
 img = "team/linas.jpg"
 position = "DI inžinierius"
 description = "Reinforcement learning expert & backend engineer"
-description = "Skatinamojo mokymo ekspertas ir inžinierius"
+description = "Skatinamojo mokymosi ekspertas ir inžinierius"
 linkedin = "https://www.linkedin.com/in/linasklimas/"
 
 [[members]]
@@ -47,7 +47,7 @@ name = "Kristijonas Raudys"
 name_long = "Kristijonas Raudys"
 img = "team/kristijonas.jpg"
 position = "Jaunesnysis DI tyrėjas"
-description = "Statistikos magistro studentas @ ETH Zürich"
+description = "Statistikos magistrantūros studentas @ ETH Zürich"
 linkedin = "https://www.linkedin.com/in/kristijonasraudys/"
 
 [[founders]]
@@ -63,5 +63,5 @@ name = "Tomas Dirvonskas"
 name_long = "Tomas Dirvonskas"
 img = "team/tomas.jpg"
 position = "Bendra-įkūrėjas ir patarėjas"
-description = "Verslo strategas, 100+ žmonių klientų patirties komandos vadovas / ex-Treatwell"
+description = "Verslo strategas, klientų patirties komandos vadovas / ex-Treatwell"
 linkedin = "https://www.linkedin.com/in/tdirvonskas/"
