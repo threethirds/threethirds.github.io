@@ -1,3 +1,21 @@
+[home]
+other = "Home"
+[services]
+other = "Services"
+[rnd]
+other = "R&D"
+[team]
+other = "Team"
+[contact]
+other = "Contact"
+
+[for_startups]
+other = "For startups"
+[for_smes]
+other = "For SMEs"
+[for_enterprises]
+other = "For enterprises"
+
 [three]
 other = "three"
 [thirds]

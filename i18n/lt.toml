@@ -1,3 +1,21 @@
+[home]
+other = "Pradžia"
+[services]
+other = "Paslaugos"
+[rnd]
+other = "Inovacijos"
+[team]
+other = "Komanda"
+[contact]
+other = "Susisiekite"
+
+[for_startups]
+other = "Startuoliams"
+[for_smes]
+other = "Vidutinėms įmonėms"
+[for_enterprises]
+other = "Korporacijoms"
+
 [three]
 other = "trys"
 [thirds]
