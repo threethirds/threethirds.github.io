@@ -349,8 +349,6 @@ section.intro h2 {
 
 section.intro img {
     max-width: 600px;
-    /* center around the 3/3 emblem */
-    margin-left: 40px;
     padding: 10px 0;
 }
 
