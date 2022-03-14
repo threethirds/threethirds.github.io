@@ -7,7 +7,7 @@ year = '2017-dabar'
 [furuta]
 img = 'icons/furuta.png'
 topic = 'Furuta švytuoklė'
-description = 'Sim2Real metodų demonstracija balansuojant apverstą švytuoklę'
+description = 'Sim2Real metodų demonstracija, balansuojant apverstą švytuoklę'
 year = '2021-dabar'
 
 [procgen]
@@ -18,12 +18,12 @@ year = '2021'
 
 [simulation]
 img = 'icons/sensmetry-sim.png'
-topic = 'Simuliatorius autominimių automobilių saugumo įvertinimui'
-description = 'ES finansuojamas R&D projektas vadovaujamas <a href="https://sensmetry.com">Sensmetry</a></p>'
+topic = 'Simuliatorius autonominių automobilių saugumo įvertinimui'
+description = 'ES finansuojamas R&D projektas, vystomas <a href="https://sensmetry.com">UAB Sensmetry</a></p>'
 year = '2020-dabar'
 
 [babyui]
 img = 'icons/baby-ui.png'
 topic = 'Baby UI'
-description = 'Įnovatyvaus skatinamojo mokymo algoritmo kūrimas'
+description = 'Inovatyvaus skatinamojo mokymo algoritmo kūrimas'
 year = '2020'
