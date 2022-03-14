@@ -31,17 +31,17 @@
 
             <nav>
                 <ul>
-                    <li><a href="#intro">Home</a></li>
-                    <li><span>Services</span>
+                    <li><a href="#intro">{{T "home"}}</a></li>
+                    <li><span>{{T "services"}}</span>
                         <ul>
-                            <li><a href="#startups">For startups</a>
-                            <li><a href="#smes">For SMEs</a>
-                            <li><a href="#enterprises">For enterprises</a>
+                            <li><a href="#startups">{{T "for_startups"}}</a>
+                            <li><a href="#smes">{{T "for_smes"}}</a>
+                            <li><a href="#enterprises">{{T "for_enterprises"}}</a>
                         </ul>
                     </li>
-                    <li><a href="#rnd">R&D</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#rnd">{{T "rnd"}}</a></li>
+                    <li><a href="#team">{{T "team"}}</a></li>
+                    <li><a href="#contact">{{T "contact"}}</a></li>
                     <li class="lang"><span>{{ .Site.Language | upper }}</span>
                         <ul>
                             {{ range $.Page.AllTranslations }}
