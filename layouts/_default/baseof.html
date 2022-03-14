@@ -26,10 +26,7 @@
         <div class="header-content">
             <a href="#" class="logo"><img src="{{$root}}/icons/favicon.png"></a>
 
-            <!-- When menu button is clicked, this checkbox is checked -->
-            <input type="checkbox" id="show-menu" name="show-menu" />
-
-            <nav>
+            <nav id="menu">
                 <ul>
                     <li><a href="#intro">{{T "home"}}</a></li>
                     <li><span>{{T "services"}}</span>
@@ -45,15 +42,16 @@
                     <li class="lang"><span>{{ .Site.Language | upper }}</span>
                         <ul>
                             {{ range $.Page.AllTranslations }}
-                            <li><a href="{{ .Permalink }}" {{if eq $.Site.Language .Language}} class="selected" {{end}}>{{.Language | upper}}</a></li>
+                            <li><a href="{{ .Permalink }}" {{if eq $.Site.Language .Language}} class="selected"
+                                    {{end}}>{{.Language | upper}}</a></li>
                             {{ end }}
                         </ul>
                     </li>
                 </ul>
             </nav>
 
-            <!-- This label becomes the hamburger menu icon -->
-            <label for="show-menu" class="menu-icon"></label>
+            <a href="#menu" class="menu-icon"></a>
+            <a href="#" class="close-icon"></a>
         </div>
     </header>
 
