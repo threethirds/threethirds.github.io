@@ -54,7 +54,7 @@ section h3 {
     margin-bottom: 15px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width:650px) {
     section {
         padding: 0 20px;
     }
@@ -75,7 +75,7 @@ section h3 {
     margin: 5vh 0;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width:1040px) {
     .content {
         padding: 0 20px;
     }
@@ -102,7 +102,6 @@ header {
     top: 0;
     display: flex;
     /* make logo stay on the left and nav on the right */
-    /* max-width: 800px; */
     justify-content: center;
     height: 50px;
     padding: 0 10px;
@@ -124,11 +123,11 @@ header {
 }
 
 .logo img {
+    /* keep aspect ratio */
     width: 50px;
-    height: 50px;
+    height: auto;
     filter: invert(100%)
 }
-
 
 nav {
     display: flex;
@@ -141,15 +140,7 @@ nav ul {
     list-style: none;
 }
 
-nav ul a:hover {
-    border-top: #eee 1px solid;
-}
-
-nav ul ul a:hover {
-    border-top: black 1px solid;
-    border-left: #eee 1px solid;
-}
-
+nav ul span,
 nav ul a {
     /* fill the entire nav height so that the entire height is clickable */
     display: flex;
@@ -160,6 +151,7 @@ nav ul a {
     font-weight: 700;
     color: #eee;
     border-top: black 1px solid;
+    cursor: pointer;
 }
 
 nav ul ul {
@@ -180,8 +172,33 @@ nav ul ul a {
     border-left: black 1px solid;
 }
 
-nav ul li:hover > ul {
+nav ul span:hover,
+nav ul a:hover {
+    border-top: #eee 1px solid;
+}
+
+nav ul ul a:hover {
+    border-top: black 1px solid;
+    border-left: #eee 1px solid;
+}
+
+nav ul li:hover>ul {
     visibility: visible;
+}
+
+.lang {
+    margin-left: 50px;
+}
+
+.lang span {
+    font-size: 12px;
+}
+
+.lang ul li a {
+    font-size: 12px;
+    color: #eee;
+    margin-left: 0;
+    height: 24px;
 }
 
 /* when menu button is clicked, this checkbox is checked */
@@ -193,6 +210,7 @@ nav ul li:hover > ul {
 .menu-icon {
     display: none;
     height: 50px;
+    margin-right: 5px;
     cursor: pointer;
     background-color: black;
 }
@@ -207,29 +225,30 @@ nav ul li:hover > ul {
 }
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
     .menu-icon {
         display: flex;
         align-items: center;
     }
 
     /* hide menu by default */
-    nav {
+    #show-menu~nav {
         display: none;
     }
 
     /* when user clicks on the hamburger, show menu */
-    header > input:checked ~ nav {
+    #show-menu:checked~nav {
         display: flex;
     }
 
-    nav > ul {
+    nav>ul {
         background: black;
         display: block;
         position: absolute;
         top: 50px;
         right: 0;
         width: 100%;
+        padding: 0px 50px;
     }
 
     nav ul ul {
@@ -237,7 +256,51 @@ nav ul li:hover > ul {
         visibility: visible;
     }
 
+    nav ul span,
+    nav ul a {
+        border-top-width: 0;
+        border-left: black 1px solid;
+    }
+
+    nav ul span:hover,
+    nav ul a:hover {
+        border-top-width: 0;
+        border-left: #eee 1px solid;
+    }
+
+    nav ul ul a:hover {
+        border-top-width: 0;
+    }
+
+    .lang {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    /* hide current choice */
+    .lang span {
+        display: none;
+    }
+
+    /* choices shown in rows now */
+    .lang ul {
+        display: flex;
+    }
+
+    .lang a {
+        border-left-width: 0;
+        border-bottom: black 1px solid;
+    }
+
+    .lang a:hover,
+    .lang a.selected {
+        border-left-width: 0;
+        border-bottom: #eee 1px solid;
+    }
+
+
 }
+
 
 /* --------------------- INTRO ----------------- */
 
@@ -291,9 +354,13 @@ section.intro img {
     padding: 10px 0;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width:650px) {
     section.intro h1 {
         font-size: 13vw;
+    }
+
+    section.intro h2 {
+        font-size: 3vw;
     }
 
     section.intro img {
@@ -323,7 +390,7 @@ section.services.for-smes .service-card {
     margin-left: auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:800px) {
     section.services.for-smes .service-card {
         margin-left: 0;
     }
@@ -381,14 +448,14 @@ section.services figcaption .description {
     font-weight: 300;
 } */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width:600px) {
     section.services .service-list {
         flex-basis: 100%;
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:800px) {
     section.services .grid li {
         flex-basis: 100%;
     }
@@ -431,7 +498,7 @@ section.rnd li {
 
 }
 
-section.rnd .content > .description {
+section.rnd .content>.description {
     margin-bottom: 25px;
 }
 
@@ -442,7 +509,7 @@ section.rnd figure {
     align-items: center;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width:420px) {
     section.rnd figure {
         flex-direction: column;
     }
@@ -485,7 +552,7 @@ section.rnd figcaption .year {
     margin-top: 7px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:800px) {
     section.rnd .grid li {
         flex-basis: 100%;
     }
@@ -542,7 +609,7 @@ section.team .position {
     font-size: 17px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:800px) {
     section.team .grid li {
         flex-basis: 100%;
         margin-bottom: 20px;
@@ -558,7 +625,7 @@ section.co-founders h2 {
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:800px) {
     section.co-founders .content {
         max-width: 400px;
     }
@@ -590,7 +657,7 @@ section.contact .email {
     text-align: left;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width:600px) {
     section.contact .email {
         font-size: 8vw;
     }
@@ -620,7 +687,7 @@ section.contact .icons img {
     max-width: 24px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:800px) {
     section.contact .grid li {
         flex-basis: 100%;
     }
@@ -629,4 +696,3 @@ section.contact .icons img {
         margin-top: 10px;
     }
 }
-
