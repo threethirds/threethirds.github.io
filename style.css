@@ -102,7 +102,6 @@ header {
     top: 0;
     display: flex;
     /* make logo stay on the left and nav on the right */
-    /* max-width: 800px; */
     justify-content: center;
     height: 50px;
     padding: 0 10px;
@@ -124,11 +123,11 @@ header {
 }
 
 .logo img {
+    /* keep aspect ratio */
     width: 50px;
-    height: 50px;
+    height: auto;
     filter: invert(100%)
 }
-
 
 nav {
     display: flex;
@@ -141,15 +140,7 @@ nav ul {
     list-style: none;
 }
 
-nav ul a:hover {
-    border-top: #eee 1px solid;
-}
-
-nav ul ul a:hover {
-    border-top: black 1px solid;
-    border-left: #eee 1px solid;
-}
-
+nav ul span,
 nav ul a {
     /* fill the entire nav height so that the entire height is clickable */
     display: flex;
@@ -160,6 +151,7 @@ nav ul a {
     font-weight: 700;
     color: #eee;
     border-top: black 1px solid;
+    cursor: pointer;
 }
 
 nav ul ul {
@@ -180,8 +172,33 @@ nav ul ul a {
     border-left: black 1px solid;
 }
 
+nav ul span:hover,
+nav ul a:hover {
+    border-top: #eee 1px solid;
+}
+
+nav ul ul a:hover {
+    border-top: black 1px solid;
+    border-left: #eee 1px solid;
+}
+
 nav ul li:hover>ul {
     visibility: visible;
+}
+
+.lang {
+    margin-left: 50px;
+}
+
+.lang span {
+    font-size: 12px;
+}
+
+.lang ul li a {
+    font-size: 12px;
+    color: #eee;
+    margin-left: 0;
+    height: 24px;
 }
 
 /* when menu button is clicked, this checkbox is checked */
@@ -194,6 +211,7 @@ nav ul li:hover>ul {
     display: none;
     width: 24;
     height: 50px;
+    margin-right: 5px;
     cursor: pointer;
     background-color: black;
 }
@@ -208,19 +226,19 @@ nav ul li:hover>ul {
 }
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
     .menu-icon {
         display: flex;
         align-items: center;
     }
 
     /* hide menu by default */
-    nav {
+    #show-menu~nav {
         display: none;
     }
 
     /* when user clicks on the hamburger, show menu */
-    header>input:checked~nav {
+    #show-menu:checked~nav {
         display: flex;
     }
 
@@ -231,12 +249,56 @@ nav ul li:hover>ul {
         top: 50px;
         right: 0;
         width: 100%;
+        padding: 0px 50px;
     }
 
     nav ul ul {
         position: relative;
         visibility: visible;
     }
+
+    nav ul span,
+    nav ul a {
+        border-top-width: 0;
+        border-left: black 1px solid;
+    }
+
+    nav ul span:hover,
+    nav ul a:hover {
+        border-top-width: 0;
+        border-left: #eee 1px solid;
+    }
+
+    nav ul ul a:hover {
+        border-top-width: 0;
+    }
+
+    .lang {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    /* hide current choice */
+    .lang span {
+        display: none;
+    }
+
+    /* choices shown in rows now */
+    .lang ul {
+        display: flex;
+    }
+
+    .lang a {
+        border-left-width: 0;
+        border-bottom: black 1px solid;
+    }
+
+    .lang a:hover,
+    .lang a.selected {
+        border-left-width: 0;
+        border-bottom: #eee 1px solid;
+    }
+
 
 }
 
@@ -296,6 +358,10 @@ section.intro img {
 @media screen and (max-width:650px) {
     section.intro h1 {
         font-size: 13vw;
+    }
+
+    section.intro h2 {
+        font-size: 3vw;
     }
 
     section.intro img {
