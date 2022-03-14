@@ -45,8 +45,7 @@
                     <li class="lang"><span>{{ .Site.Language | upper }}</span>
                         <ul>
                             {{ range $.Page.AllTranslations }}
-                            <li><a href="{{ .Permalink }}" {{ if eq .Site.Language "en" }}class="selected" {{ end }}>{{
-                                    .Language | upper }}</a></li>
+                            <li><a href="{{ .Permalink }}" {{if eq $.Site.Language .Language}} class="selected" {{end}}>{{.Language | upper}}</a></li>
                             {{ end }}
                         </ul>
                     </li>
