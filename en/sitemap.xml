@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://threethirds.ai/cases/flexblow/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="lt"
+                href="https://threethirds.ai/lt/cases/flexblow/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://threethirds.ai/cases/flexblow/"
+                />
+  </url><url>
+    <loc>https://threethirds.ai/cases/girteka/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="lt"
+                href="https://threethirds.ai/lt/cases/girteka/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://threethirds.ai/cases/girteka/"
+                />
+  </url><url>
     <loc>https://threethirds.ai/cases/rubedos/</loc>
     <xhtml:link
                 rel="alternate"
@@ -12,6 +36,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://threethirds.ai/cases/rubedos/"
+                />
+  </url><url>
+    <loc>https://threethirds.ai/cases/strato/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="lt"
+                href="https://threethirds.ai/lt/cases/strato/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://threethirds.ai/cases/strato/"
                 />
   </url><url>
     <loc>https://threethirds.ai/cases/turimeda/</loc>
@@ -38,30 +74,6 @@
                 href="https://threethirds.ai/cases/"
                 />
   </url><url>
-    <loc>https://threethirds.ai/cases/flexblow/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="lt"
-                href="https://threethirds.ai/lt/cases/flexblow/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://threethirds.ai/cases/flexblow/"
-                />
-  </url><url>
-    <loc>https://threethirds.ai/cases/girteka/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="lt"
-                href="https://threethirds.ai/lt/cases/girteka/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://threethirds.ai/cases/girteka/"
-                />
-  </url><url>
     <loc>https://threethirds.ai/</loc>
     <xhtml:link
                 rel="alternate"
@@ -72,18 +84,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://threethirds.ai/"
-                />
-  </url><url>
-    <loc>https://threethirds.ai/cases/strato/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="lt"
-                href="https://threethirds.ai/lt/cases/strato/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://threethirds.ai/cases/strato/"
                 />
   </url>
 </urlset>

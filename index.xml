@@ -8,6 +8,26 @@
     <language>en-us</language><atom:link href="https://threethirds.ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
+      <link>https://threethirds.ai/cases/flexblow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://threethirds.ai/cases/flexblow/</guid>
+      <description>Real-time bottle blowing control system Client&amp;rsquo;s challenge FlexBlow is an SME specializing in PET bottle manufacturing and equipment. Their flagship product is a stretch blow molding machine that can be flexibly reconfigured to produce different shapes of bottles. However, the entire production process needs human supervision and continuous parameter adjustment in order to maintain bottle quality. We joined Flexblow to design and implement an autonomous bottle quality control system.
+Our solution The project required three components: control sensor, control software, and hardware for running quality control in production.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://threethirds.ai/cases/girteka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://threethirds.ai/cases/girteka/</guid>
+      <description>Operational change impact measurement Client&amp;rsquo;s challenge Girteka is the largest full truck load transport company in Europe, with more than 8000 trucks in it&amp;rsquo;s fleet. In 2020, they started digital transformation and were onboarding a vendor for load planning optimization. We were tasked with assessing company&amp;rsquo;s needs and providing an accurate measurement of the impact of this optimization.
+Our solution  We delivered a suite of KPIs that were aligned with all of the stakeholders, as well as implementation of necessary computations, a dashboard for visualization, and a detailed documentation.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://threethirds.ai/cases/rubedos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -18,42 +38,23 @@ Our solution  Pallet detection system is based on an ensemble of off-the-shelf c
     
     <item>
       <title></title>
+      <link>https://threethirds.ai/cases/strato/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://threethirds.ai/cases/strato/</guid>
+      <description>Client&amp;rsquo;s challenge strato.homes is an innovative startup that designs and builds modular houses from purchase to move-in in mere three months. A part of their vision is an AI planner that would create a floor-plan based on buyer&amp;rsquo;s choices and engineering restrictions imposed by their modular system.
+Our solution Our solutions comprises of three main components:
+ A floor-plan generation algorithm that formulates planning as a linear programming and constraint programming problem and solves it using coin-or and ortools solvers.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://threethirds.ai/cases/turimeda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/cases/turimeda/</guid>
       <description>EndoArt: Aortic aneurysm segmentation and monitoring system Client&amp;rsquo;s challenge Turimeda is an early stage MedTech startup that wants to measure and monitor internal organs without tedious manual labeling effort. Their first product measures abdominal aortic aneurysm – a life-threatening condition when aorta, the main blood vessel, expands and may rupture – based on raw CT scans, and tracks the development of the condition over time.
 Our solution  We built a PyTorch-based deep neural network for aortic aneurysm segmentation, trained for multiple days on our custom cloud infrastructure.</description>
-    </item>
-    
-    <item>
-      <title>FlexBlow</title>
-      <link>https://threethirds.ai/cases/flexblow/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://threethirds.ai/cases/flexblow/</guid>
-      <description>FlexBlow FlexBlow is an SME specializing in PET bottle manufacturing and equipment. Their flagship product is a stretch blow molding machine that can be flexibly reconfigured to different bottles. A newly planned feature of this machine is an autonomous bottle quality control.
-Our initial task was to program the control algorithm, that automatically adjusts operational parameters based on the control sensor output. Unfortunatelly, the control sensor was inadequate for the task, so we took a lead on designing and sourcing the parts for the new sensor as well.</description>
-    </item>
-    
-    <item>
-      <title>girteka</title>
-      <link>https://threethirds.ai/cases/girteka/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://threethirds.ai/cases/girteka/</guid>
-      <description>Girteka Girteka is the largest full truck load transport company in Europe, with more than 8000 trucks in it&amp;rsquo;s fleet. In 2020 they started digital transformation and were onboarding a vendor for load planning optimization.
-We were tasked with accurate measurement of the impact. We delivered a suite of KPIs that were aligned with all of the stakeholders, as well as implementation of neccessary computations, a dashboard for visualization, and a detailed documentation.</description>
-    </item>
-    
-    <item>
-      <title>strato.homes</title>
-      <link>https://threethirds.ai/cases/strato/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://threethirds.ai/cases/strato/</guid>
-      <description>strato.homes strato.homes is an exciting startup in a modular construction space that builds homes in 3 months from the purchase to the move-in. A part of their vision is an AI planner, that would create a floor-plan based on (1) buyer&amp;rsquo;s choices and (2) engineering restrictions imposed by their modular system.
-We took on the challenge and built the PoC AI planner in 7 months. Our deliverable was a floor-plan generation algorithm, a cloud infrastructure setup for high intensity computations, a backend service and a user interface for the exploration of results.</description>
     </item>
     
   </channel>
