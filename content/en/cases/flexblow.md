@@ -1,22 +1,17 @@
----
-title: "FlexBlow"
----
+# Real-time bottle blowing control system
 
-# FlexBlow
+## Client's challenge
 
-FlexBlow is an SME specializing in PET bottle manufacturing and equipment. Their
-flagship product is a stretch blow molding machine that can be flexibly reconfigured
-to different bottles. A newly planned feature of this machine is an autonomous bottle
-quality control.
+[FlexBlow](https://flexblow.com/) is an SME specializing in **PET bottle manufacturing and equipment**. Their flagship product is a stretch blow molding machine that can be flexibly reconfigured to produce different shapes of bottles. However, the entire production process needs human supervision and continuous parameter adjustment in order to maintain bottle quality. We joined Flexblow to design and implement an **autonomous bottle quality control system**.
 
+## Our solution
 
-Our initial task was to program the control algorithm, that automatically adjusts
-operational parameters based on the control sensor output. Unfortunatelly, the control
-sensor was inadequate for the task, so we took a lead on designing and sourcing the
-parts for the new sensor as well. The project is now a joint effort between FlexBlow
-(hardware), Elskaifa (electronics) and ThreeThrids (data, algorithms and management).
+The project required three components: control sensor, control software, and hardware for running quality control in production.
 
-Together with Elskaifa we designed a low cost sensor that is able to perform close
-to 1 million accurate measurements per second. We are now gathering data from the
-PoC sensor and developing the real-time closed loop control system, which is expected
-to go to production in mid 2022. 
+- **Control sensor.** FlexBlow's original control sensor turned out to be inadequate for the task, so we took a lead in designing and sourcing the parts for a new sensor. Together with Elskaifa, a third-party electronics shop, we developed a custom low-cost sensor that can perform up to 1 million accurate measurements per second.
+- **Control software.** We developed a real-time closed-loop PID-style control system that seamlessly integrates with FlexBlow's machinery via industry-standard messaging protocols.
+- **Hardware.** We worked together with FlexBlow's team to design such a hardware configuration that would integrate into the existing equipment without alterations.
+
+## Impact
+
+- Our system is expected to go to production in mid-2022.
