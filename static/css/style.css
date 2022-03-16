@@ -31,6 +31,7 @@ img {
     max-height: 50vh;
 }
 
+article,
 section {
     display: flex;
     flex-direction: column;
@@ -711,4 +712,56 @@ section.contact .icons img {
     section.contact ul {
         margin-top: 10px;
     }
+}
+
+/* --------------------- ARTICLE ----------------- */
+
+article .content {
+    max-width: 800px;
+}
+
+@media screen and (max-width:800px) {
+    article {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    article {
+        padding: 0;
+    }
+
+    article .content {
+        margin-top: 20px;
+    }
+}
+
+article h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    font-size: 32px;
+    margin-top: 15px
+}
+
+article p {
+    margin: 10px 5px;
+    line-height: 1.5;
+}
+
+article li {
+    list-style: square;
+    margin: 10px 0 0 40px;
+    line-height: 1.5;
+}
+
+article a {
+    color: brown;
+}
+
+article a:hover,
+article a:focus {
+    color: #2e130c;
 }
