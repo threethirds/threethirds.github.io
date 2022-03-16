@@ -25,15 +25,17 @@
         </div>
         <div class="service-list">
             {{ range .cases}}
-            <figure>
-                <img src="{{$root}}/{{.img}}" alt="{{.topic}}">
-                <figcaption>
-                    <p class="topic">{{.topic}}</p>
-                    <p class="client">{{.client}}</p>
-                    <p class="description">{{.description}}</p>
-                    <!-- <p class="read-more">read more...</p> -->
-                </figcaption>
-            </figure>
+            <a href="cases/{{.id}}">
+                <figure>
+                    <img src="{{$root}}/{{.img}}" alt="{{.topic}}">
+                    <figcaption>
+                        <p class="topic">{{.topic}}</p>
+                        <p class="client">{{.client}}</p>
+                        <p class="description">{{.description}}</p>
+                        <!-- <p class="read-more">read more...</p> -->
+                    </figcaption>
+                </figure>
+            </a>
             {{ end }}
         </div>
     </div>
