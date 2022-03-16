@@ -61,23 +61,22 @@
 
 <article>
     <div class="content">
-        <h1 id="rubedos">rubedos</h1>
-<h1 id="lt">LT</h1>
-<h1 id="lt-1">LT</h1>
-<h1 id="lt-2">LT</h1>
-<p>Rubedos is an SME specializing in mobile robotics. One of their products is a control
-suite for an autonomous forklift. The forklift is able to autonomously locate a
-pallet in a loading zone and transfer it to the target location.</p>
-<p>In the initial phase of the development they needed a boost in their computer vision
-capacity and we joined them for 8 months and developed a pallet detection and
-localisation stack. Our deliverable was a ROS service that indentifies the pallet, it&rsquo;s
-orientation and location from the stereo image and lidar data streams.</p>
-<p>Our solution was based on convolutional neural networks (Yolo v3), adapted to the
-Rubedos Viper device. During the project we subcontracted a third party labeling
-providers, and managed the full scope of algorithm development, from data gathering
-to algorithm deployment.</p>
-<p>Rubedos autonomous forklift PoC successfully passed the trials in a test deployment
-in the warehouse of a major logicstics company, and is currently being productised.</p>
+        <h1 id="pallet-detection-and-localization-system">Pallet detection and localization system</h1>
+<h2 id="clients-challenge">Client&rsquo;s challenge</h2>
+<p><a href="https://rubedos.com">Rubedos</a> is an SME specializing in <strong>mobile robotics</strong>. In 2021 they started developing an autonomous forklift platform, aiming to autonomously locate a pallet in a loading zone and transfer it to the target location. We were contracted by Rubedos to develop a pallet detection and localization stack that identifies pallets, their orientation and location from a stereo image and LIDAR inputs.</p>
+<h2 id="our-solution">Our solution</h2>
+<ul>
+<li>Pallet detection system is based on an ensemble of off-the-shelf <strong>convolutional neural networks for object detection</strong>, adapted to the constraints of Rubedos&rsquo; GPU-powered VIPER stereo camera. The system is capable of detecting a variety of pallets from multiple angles, distances, and lighting conditions.</li>
+<li>Pallet localization is a purpose-built classical machine vision system that merges using <strong>LIDAR</strong> with <strong>stereo camera</strong>&rsquo;s data streams. The system can successfully handle many types of pallets and occlusions.</li>
+<li>The solution is deployed at multiple locations at the warehouse and on the forklift, and communicates with the forklift control stack (developed by Rubedos) via the standard Robotic Operating System (ROS) protocols.</li>
+<li>We managed the full scope of algorithm development, from <strong>data gathering and annotation</strong> service subcontracting to algorithm <strong>training on the cloud</strong> and deployment within Rubedos&rsquo; infrastructure.</li>
+</ul>
+<h2 id="impact">Impact</h2>
+<ul>
+<li>Within <strong>five months</strong>, we delivered a complete pallet detection and localization suite.</li>
+<li>Using our solution, Rubedos autonomous forklift PoC successfully <strong>passed the trials</strong> of a test deployment at the warehouse of a <strong>major logistics company</strong>.</li>
+<li>We are continuing our collaboration to <strong>deploy an MVP</strong> at a large logistics center by the end of 2022.</li>
+</ul>
 
     </div>
 </article>

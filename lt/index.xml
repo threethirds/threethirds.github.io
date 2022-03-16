@@ -7,53 +7,51 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://threethirds.ai/lt/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>FlexBlow</title>
+      <title></title>
       <link>https://threethirds.ai/lt/cases/flexblow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/lt/cases/flexblow/</guid>
-      <description>FlexBlow LT LT LT FlexBlow is an SME specializing in PET bottle manufacturing and equipment. Their flagship product is a stretch blow molding machine that can be flexibly reconfigured to different bottles. A newly planned feature of this machine is an autonomous bottle quality control.
-Our initial task was to program the control algorithm, that automatically adjusts operational parameters based on the control sensor output. Unfortunatelly, the control sensor was inadequate for the task, so we took a lead on designing and sourcing the parts for the new sensor as well.</description>
+      <description>Real-time bottle blowing control system Client&amp;rsquo;s challenge FlexBlow is an SME specializing in PET bottle manufacturing and equipment. Their flagship product is a stretch blow molding machine that can be flexibly reconfigured to produce different shapes of bottles. However, the entire production process needs human supervision and continuous parameter adjustment in order to maintain bottle quality. We were contracted by Flexblow to design and implement an autonomous bottle quality control system.</description>
     </item>
     
     <item>
-      <title>girteka</title>
+      <title></title>
       <link>https://threethirds.ai/lt/cases/girteka/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/lt/cases/girteka/</guid>
-      <description>Girteka LT LT LT Girteka is the largest full truck load transport company in Europe, with more than 8000 trucks in it&amp;rsquo;s fleet. In 2020 they started digital transformation and were onboarding a vendor for load planning optimization.
-We were tasked with accurate measurement of the impact. We delivered a suite of KPIs that were aligned with all of the stakeholders, as well as implementation of neccessary computations, a dashboard for visualization, and a detailed documentation.</description>
+      <description>Operational change impact measurement Client&amp;rsquo;s challenge Girteka is the largest full truck load transport company in Europe, with more than 8000 trucks in its fleet. In 2020, they started a digital transformation and were onboarding a vendor for load planning optimization. We were tasked with assessing company&amp;rsquo;s needs and providing an accurate measurement of the impact of this optimization.
+Our solution  We delivered a suite of KPIs that were aligned with all the stakeholders, as well as an implementation of necessary computations, a dashboard for visualization, and a detailed documentation.</description>
     </item>
     
     <item>
-      <title>rubedos</title>
+      <title></title>
       <link>https://threethirds.ai/lt/cases/rubedos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/lt/cases/rubedos/</guid>
-      <description>rubedos LT LT LT Rubedos is an SME specializing in mobile robotics. One of their products is a control suite for an autonomous forklift. The forklift is able to autonomously locate a pallet in a loading zone and transfer it to the target location.
-In the initial phase of the development they needed a boost in their computer vision capacity and we joined them for 8 months and developed a pallet detection and localisation stack.</description>
+      <description>Pallet detection and localization system Client&amp;rsquo;s challenge Rubedos is an SME specializing in mobile robotics. In 2021 they started developing an autonomous forklift platform, aiming to autonomously locate a pallet in a loading zone and transfer it to the target location. We were contracted by Rubedos to develop a pallet detection and localization stack that identifies pallets, their orientation and location from a stereo image and LIDAR inputs.
+Our solution  Pallet detection system is based on an ensemble of off-the-shelf convolutional neural networks for object detection, adapted to the constraints of Rubedos&amp;rsquo; GPU-powered VIPER stereo camera.</description>
     </item>
     
     <item>
-      <title>strato.homes</title>
+      <title></title>
       <link>https://threethirds.ai/lt/cases/strato/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/lt/cases/strato/</guid>
-      <description>strato.homes LT LT LT strato.homes is an exciting startup in a modular construction space that builds homes in 3 months from the purchase to the move-in. A part of their vision is an AI planner, that would create a floor-plan based on (1) buyer&amp;rsquo;s choices and (2) engineering restrictions imposed by their modular system.
-We took on the challenge and built the PoC AI planner in 7 months. Our deliverable was a floor-plan generation algorithm, a cloud infrastructure setup for high intensity computations, a backend service and a user interface for the exploration of results.</description>
+      <description>Modular house planning Client&amp;rsquo;s challenge strato.homes is an innovative startup that designs and builds modular houses from purchase to move-in in mere three months. A part of their vision is an AI planner that would create a floor-plan based on buyer&amp;rsquo;s choices and engineering restrictions imposed by their modular system. We were contracted by strato.homes to build a prototype of the AI planner.
+Our solution Our solution is comprised of three main components:</description>
     </item>
     
     <item>
-      <title>turimeda</title>
+      <title></title>
       <link>https://threethirds.ai/lt/cases/turimeda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/lt/cases/turimeda/</guid>
-      <description>turimeda LT LT LT Turimeda is an early stage medtech startup that want&amp;rsquo;s to measure and monitor internal organs without tedious manual labeling effort. Their first product measures the dilatation of aorta based on raw CT scans and tracks the development of the condition over time.
-We are responsible for building the CT scan segmentation part of the App. Our MVP deliverable is able to accurately (dice index &amp;gt; 0.9) segment the aorta, construct a 3D body and measure the volume of the aneurysm.</description>
+      <description>EndoArt: Aortic aneurysm segmentation and monitoring system Client&amp;rsquo;s challenge Turimeda is an early stage MedTech startup that wants to measure and monitor internal organs without tedious manual labeling effort. Their first product focuses on abdominal aortic aneurysm – a life-threatening condition when aorta, the main blood vessel, expands and may rupture. Turimeda aims to develop a suite of tools that would help doctors track the development of condition over time based on regularly performed CT scans.</description>
     </item>
     
   </channel>

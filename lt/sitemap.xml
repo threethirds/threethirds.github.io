@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://threethirds.ai/lt/cases/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://threethirds.ai/cases/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="lt"
-                href="https://threethirds.ai/lt/cases/"
-                />
-  </url><url>
     <loc>https://threethirds.ai/lt/cases/flexblow/</loc>
     <xhtml:link
                 rel="alternate"
@@ -36,18 +24,6 @@
                 rel="alternate"
                 hreflang="lt"
                 href="https://threethirds.ai/lt/cases/girteka/"
-                />
-  </url><url>
-    <loc>https://threethirds.ai/lt/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://threethirds.ai/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="lt"
-                href="https://threethirds.ai/lt/"
                 />
   </url><url>
     <loc>https://threethirds.ai/lt/cases/rubedos/</loc>
@@ -84,6 +60,30 @@
                 rel="alternate"
                 hreflang="lt"
                 href="https://threethirds.ai/lt/cases/turimeda/"
+                />
+  </url><url>
+    <loc>https://threethirds.ai/lt/cases/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://threethirds.ai/cases/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="lt"
+                href="https://threethirds.ai/lt/cases/"
+                />
+  </url><url>
+    <loc>https://threethirds.ai/lt/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://threethirds.ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="lt"
+                href="https://threethirds.ai/lt/"
                 />
   </url>
 </urlset>

@@ -61,24 +61,21 @@
 
 <article>
     <div class="content">
-        <h1 id="stratohomes">strato.homes</h1>
-<h1 id="lt">LT</h1>
-<h1 id="lt-1">LT</h1>
-<h1 id="lt-2">LT</h1>
-<p>strato.homes is an exciting startup in a modular construction space that builds homes
-in 3 months from the purchase to the move-in. A part of their vision is an AI
-planner, that would create a floor-plan based on (1) buyer&rsquo;s choices and (2) engineering
-restrictions imposed by their modular system.</p>
-<p>We took on the challenge and built the PoC AI planner in 7 months. Our deliverable was
-a floor-plan generation algorithm, a cloud infrastructure setup for high intensity
-computations, a backend service and a user interface for the exploration of results. Our
-algorithm is capable of generating plans for thousands of different configuration options.</p>
-<p>Our solution was based on translations of the planner to linear programming and
-constraint programming problems and solving them using coin-or and ortools solvers. We also
-investigated reinforcement learning and conditional variational encoder based approaches
-but found them unpractical.</p>
-<p>The stack behind the is currently being developed futher, and we hope to see it
-deployed soon!</p>
+        <h1 id="modular-house-planning">Modular house planning</h1>
+<h2 id="clients-challenge">Client&rsquo;s challenge</h2>
+<p><a href="https://strato.homes/">strato.homes</a> is an innovative startup that designs and builds <strong>modular houses</strong> from purchase to move-in in mere three months. A part of their vision is an <strong>AI planner</strong> that would create a floor-plan based on buyer&rsquo;s choices and engineering restrictions imposed by their modular system. We were contracted by strato.homes to build a prototype of the AI planner.</p>
+<h2 id="our-solution">Our solution</h2>
+<p>Our solution is comprised of three main components:</p>
+<ol>
+<li>A floor-plan generation algorithm that formulates planning as a <strong>linear programming</strong> and <strong>constraint programming</strong> problem and solves it using <em>coin-or</em> and <em>ortools</em> solvers. We derived planning constraints by working closely with strato.homes&rsquo; architects, and as a result our algorithm is capable of generating sensible plans for thousands of different configuration options. We also investigated reinforcement learning and conditional variational encoder approaches but found them unpractical at this stage.</li>
+<li>A <strong>cloud infrastructure</strong> setup for high intensity computations.</li>
+<li>A <strong>backend service</strong> and a <strong>user interface</strong> for the exploration of results.</li>
+</ol>
+<h2 id="impact">Impact</h2>
+<ul>
+<li>We delivered a working PoC planner in <strong>7 months</strong>, allowing strato.homes to quickly gauge the potential of this approach.</li>
+<li>Encouraged by our PoC, strato.homes is continuing to expand the feature set, and we hope to see it deployed soon!</li>
+</ul>
 
     </div>
 </article>

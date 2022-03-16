@@ -61,23 +61,21 @@
 
 <article>
     <div class="content">
-        <h1 id="turimeda">turimeda</h1>
-<h1 id="lt">LT</h1>
-<h1 id="lt-1">LT</h1>
-<h1 id="lt-2">LT</h1>
-<p>Turimeda is an early stage medtech startup that want&rsquo;s to measure and monitor internal
-organs without tedious manual labeling effort. Their first product measures the dilatation
-of aorta based on raw CT scans and tracks the development of the condition over time.</p>
-<p>We are responsible for building the CT scan segmentation part of the App. Our MVP
-deliverable is able to accurately (dice index &gt; 0.9) segment the aorta, construct a 3D
-body and measure the volume of the aneurysm. The algorithm comes with an AWS based
-backed which is consumed by the app.</p>
-<p>At the core of our solution is the U-Net convolutional neural net, optimized for &hellip; /
-modified to &hellip;. . It&rsquo;s output is then further processed by a custom-made code to produce
-an accurate 3D body, locate specific arteries and other landmarks, and to measure
-the volume.</p>
-<p>The MVP is currently tested in three national hospitals in Lithuania, where it&rsquo;s accuracy
-will be validated and additional data will be gathered.</p>
+        <h1 id="endoart-aortic-aneurysm-segmentation-and-monitoring-system">EndoArt: Aortic aneurysm segmentation and monitoring system</h1>
+<h2 id="clients-challenge">Client&rsquo;s challenge</h2>
+<p><a href="https://www.turimeda.com/">Turimeda</a> is an early stage MedTech startup that wants to measure and monitor internal organs without tedious manual labeling effort. Their first product focuses on <em>abdominal aortic aneurysm</em> – a life-threatening condition when aorta, the main blood vessel, expands and may rupture. Turimeda aims to develop a suite of tools that would help doctors track the development of condition over time based on regularly performed CT scans. Our task was to develop an algorithm which computes the exact dimensions of aorta from the CT scans.</p>
+<h2 id="our-solution">Our solution</h2>
+<ul>
+<li>We built a PyTorch-based <strong>deep neural network</strong> for aortic aneurysm segmentation, trained for multiple days on our in-house cloud infrastructure.</li>
+<li>We developed a <strong>3D post-processing stack</strong> for locating and measuring landmarks on the reconstructed aorta&rsquo;s 3D mesh.</li>
+<li>We deployed our algorithm as a web service on a cloud infrastructure as well as packaged it as a standalone Docker container</li>
+<li>for the on-prem deployments.</li>
+</ul>
+<h2 id="impact">Impact</h2>
+<ul>
+<li>We delivered a PoC in 12 months, reaching the field&rsquo;s standard <strong>Dice index of .9</strong> in a blind test on unseen patients CT scans.</li>
+<li>The PoC is currently tested at three national hospitals in Lithuania to get ready for clinical trials.</li>
+</ul>
 
     </div>
 </article>

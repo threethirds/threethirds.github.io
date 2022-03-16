@@ -61,23 +61,20 @@
 
 <article>
     <div class="content">
-        <h1 id="flexblow">FlexBlow</h1>
-<h1 id="lt">LT</h1>
-<h1 id="lt-1">LT</h1>
-<h1 id="lt-2">LT</h1>
-<p>FlexBlow is an SME specializing in PET bottle manufacturing and equipment. Their
-flagship product is a stretch blow molding machine that can be flexibly reconfigured
-to different bottles. A newly planned feature of this machine is an autonomous bottle
-quality control.</p>
-<p>Our initial task was to program the control algorithm, that automatically adjusts
-operational parameters based on the control sensor output. Unfortunatelly, the control
-sensor was inadequate for the task, so we took a lead on designing and sourcing the
-parts for the new sensor as well. The project is now a joint effort between FlexBlow
-(hardware), Elskaifa (electronics) and ThreeThrids (data, algorithms and management).</p>
-<p>Together with Elskaifa we designed a low cost sensor that is able to perform close
-to 1 million accurate measurements per second. We are now gathering data from the
-PoC sensor and developing the real-time closed loop control system, which is expected
-to go to production in mid 2022.</p>
+        <h1 id="real-time-bottle-blowing-control-system">Real-time bottle blowing control system</h1>
+<h2 id="clients-challenge">Client&rsquo;s challenge</h2>
+<p><a href="https://flexblow.com/">FlexBlow</a> is an SME specializing in <strong>PET bottle manufacturing and equipment</strong>. Their flagship product is a stretch blow molding machine that can be flexibly reconfigured to produce different shapes of bottles. However, the entire production process needs human supervision and continuous parameter adjustment in order to maintain bottle quality. We were contracted by Flexblow to design and implement an <strong>autonomous bottle quality control system</strong>.</p>
+<h2 id="our-solution">Our solution</h2>
+<p>The project required three components: control sensor, control software, and hardware for running quality control in production.</p>
+<ul>
+<li><strong>Control sensor.</strong> FlexBlow&rsquo;s original quality sensor turned out to be inadequate for the task, so we took a lead in designing and sourcing the parts for a new sensor. Together with Elskaifa, a third-party electronics service provider, we developed a custom low-cost sensor that can perform up to 1 million accurate measurements per second.</li>
+<li><strong>Control software.</strong> We developed a real-time closed-loop PID-style control system that seamlessly integrates with FlexBlow&rsquo;s machinery via industry-standard messaging protocols.</li>
+<li><strong>Hardware.</strong> We worked together with FlexBlow&rsquo;s team to design such a hardware configuration that would integrate into the existing equipment without alterations.</li>
+</ul>
+<h2 id="impact">Impact</h2>
+<ul>
+<li>Our system is expected to go to production in mid-2022.</li>
+</ul>
 
     </div>
 </article>
