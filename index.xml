@@ -12,8 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/cases/flexblow/</guid>
-      <description>Real-time bottle blowing control system Client&amp;rsquo;s challenge FlexBlow is an SME specializing in PET bottle manufacturing and equipment. Their flagship product is a stretch blow molding machine that can be flexibly reconfigured to produce different shapes of bottles. However, the entire production process needs human supervision and continuous parameter adjustment in order to maintain bottle quality. We joined Flexblow to design and implement an autonomous bottle quality control system.
-Our solution The project required three components: control sensor, control software, and hardware for running quality control in production.</description>
+      <description>Real-time bottle blowing control system Client&amp;rsquo;s challenge FlexBlow is an SME specializing in PET bottle manufacturing and equipment. Their flagship product is a stretch blow molding machine that can be flexibly reconfigured to produce different shapes of bottles. However, the entire production process needs human supervision and continuous parameter adjustment in order to maintain bottle quality. We were contracted by Flexblow to design and implement an autonomous bottle quality control system.</description>
     </item>
     
     <item>
@@ -22,8 +21,8 @@ Our solution The project required three components: control sensor, control soft
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/cases/girteka/</guid>
-      <description>Operational change impact measurement Client&amp;rsquo;s challenge Girteka is the largest full truck load transport company in Europe, with more than 8000 trucks in it&amp;rsquo;s fleet. In 2020, they started digital transformation and were onboarding a vendor for load planning optimization. We were tasked with assessing company&amp;rsquo;s needs and providing an accurate measurement of the impact of this optimization.
-Our solution  We delivered a suite of KPIs that were aligned with all of the stakeholders, as well as implementation of necessary computations, a dashboard for visualization, and a detailed documentation.</description>
+      <description>Operational change impact measurement Client&amp;rsquo;s challenge Girteka is the largest full truck load transport company in Europe, with more than 8000 trucks in its fleet. In 2020, they started a digital transformation and were onboarding a vendor for load planning optimization. We were tasked with assessing company&amp;rsquo;s needs and providing an accurate measurement of the impact of this optimization.
+Our solution  We delivered a suite of KPIs that were aligned with all the stakeholders, as well as an implementation of necessary computations, a dashboard for visualization, and a detailed documentation.</description>
     </item>
     
     <item>
@@ -32,7 +31,7 @@ Our solution  We delivered a suite of KPIs that were aligned with all of the sta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/cases/rubedos/</guid>
-      <description>Pallet detection and localization system Client&amp;rsquo;s challenge Rubedos is an SME specializing in mobile robotics. In 2021 they started developing an autonomous forklift platform, aiming to autonomously locate a pallet in a loading zone and transfer it to the target location. We joined Rubedos to develop a pallet detection and localization stack that identifies pallets, their orientation and location from a stereo image and LIDAR inputs.
+      <description>Pallet detection and localization system Client&amp;rsquo;s challenge Rubedos is an SME specializing in mobile robotics. In 2021 they started developing an autonomous forklift platform, aiming to autonomously locate a pallet in a loading zone and transfer it to the target location. We were contracted by Rubedos to develop a pallet detection and localization stack that identifies pallets, their orientation and location from a stereo image and LIDAR inputs.
 Our solution  Pallet detection system is based on an ensemble of off-the-shelf convolutional neural networks for object detection, adapted to the constraints of Rubedos&amp;rsquo; GPU-powered VIPER stereo camera.</description>
     </item>
     
@@ -42,9 +41,8 @@ Our solution  Pallet detection system is based on an ensemble of off-the-shelf c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/cases/strato/</guid>
-      <description>Client&amp;rsquo;s challenge strato.homes is an innovative startup that designs and builds modular houses from purchase to move-in in mere three months. A part of their vision is an AI planner that would create a floor-plan based on buyer&amp;rsquo;s choices and engineering restrictions imposed by their modular system.
-Our solution Our solutions comprises of three main components:
- A floor-plan generation algorithm that formulates planning as a linear programming and constraint programming problem and solves it using coin-or and ortools solvers.</description>
+      <description>Modular house planning Client&amp;rsquo;s challenge strato.homes is an innovative startup that designs and builds modular houses from purchase to move-in in mere three months. A part of their vision is an AI planner that would create a floor-plan based on buyer&amp;rsquo;s choices and engineering restrictions imposed by their modular system. We were contracted by strato.homes to build a prototype of the AI planner.
+Our solution Our solution comprises of three main components:</description>
     </item>
     
     <item>
@@ -53,8 +51,7 @@ Our solution Our solutions comprises of three main components:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/cases/turimeda/</guid>
-      <description>EndoArt: Aortic aneurysm segmentation and monitoring system Client&amp;rsquo;s challenge Turimeda is an early stage MedTech startup that wants to measure and monitor internal organs without tedious manual labeling effort. Their first product measures abdominal aortic aneurysm – a life-threatening condition when aorta, the main blood vessel, expands and may rupture – based on raw CT scans, and tracks the development of the condition over time.
-Our solution  We built a PyTorch-based deep neural network for aortic aneurysm segmentation, trained for multiple days on our custom cloud infrastructure.</description>
+      <description>EndoArt: Aortic aneurysm segmentation and monitoring system Client&amp;rsquo;s challenge Turimeda is an early stage MedTech startup that wants to measure and monitor internal organs without tedious manual labeling effort. Their first product focuses on abdominal aortic aneurysm – a life-threatening condition when aorta, the main blood vessel, expands and may rupture. Turimeda aims to develop a suite of tools that would help doctors track the development of condition over time based on regularly performed CT scans.</description>
     </item>
     
   </channel>
