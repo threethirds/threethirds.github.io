@@ -19,7 +19,7 @@ year = '2021'
 [simulation]
 img = 'icons/sensmetry-sim.png'
 topic = 'Simuliatorius autonominių automobilių saugumo įvertinimui'
-description = 'ES finansuojamas R&D projektas, vystomas <a href="https://sensmetry.com">UAB Sensmetry</a></p>'
+description = 'ES finansuojamas R&D projektas, vystomas UAB Sensmetry'
 year = '2020-dabar'
 
 [babyui]

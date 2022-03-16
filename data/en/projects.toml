@@ -19,7 +19,7 @@ year = '2021'
 [simulation]
 img = 'icons/sensmetry-sim.png'
 topic = 'Simulator for autonomous vehicle safety quantification'
-description = 'EU-funded R&D project led by <a href="https://sensmetry.com">Sensmetry</a></p>'
+description = 'EU-funded R&D project led by Sensmetry'
 year = '2020-present'
 
 [babyui]
