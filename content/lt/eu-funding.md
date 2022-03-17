@@ -1,6 +1,6 @@
 # ES finansavimas
 
-![](static/eu-funding-lt.png)
+![](eu-funding-lt.png)
 
 „Trys trečiosios“ dalyvauja keliuose projektuose, bendrai finansuojamuose **Europos regioninės plėtros fondo**:
 
