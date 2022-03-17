@@ -54,5 +54,16 @@ Our solution Our solution is comprised of three main components:</description>
       <description>EndoArt: Aortic aneurysm segmentation and monitoring system Client&amp;rsquo;s challenge Turimeda is an early stage MedTech startup that wants to measure and monitor internal organs without tedious manual labeling effort. Their first product focuses on abdominal aortic aneurysm – a life-threatening condition when aorta, the main blood vessel, expands and may rupture. Turimeda aims to develop a suite of tools that would help doctors track the development of condition over time based on regularly performed CT scans.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://threethirds.ai/eu-funding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://threethirds.ai/eu-funding/</guid>
+      <description>EU Funding Three Thirds is participating is several projects, co-financed by the European Regional Development Fund:
+Safety Analysis and Argumentation Products R&amp;amp;D for Autonomous Transportation Systems This project, led by Sensmetry, aims to develop prototypes of safety analysis and argumentation tools for autonomous transportation systems, based on a novel modular probabilistic safety analysis methodology. These tools will help autonomous transportation companies meet the upcoming international safety standardization requirements.
+Three Thirds is helping Sensmetry to build a simulation environment for testing different traffic scenarios and sensor parameters.</description>
+    </item>
+    
   </channel>
 </rss>

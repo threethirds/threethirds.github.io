@@ -62,6 +62,19 @@
                 href="https://threethirds.ai/lt/cases/turimeda/"
                 />
   </url><url>
+    <loc>https://threethirds.ai/lt/eu-funding/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://threethirds.ai/eu-funding/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="lt"
+                href="https://threethirds.ai/lt/eu-funding/"
+                />
+  </url><url>
     <loc>https://threethirds.ai/lt/cases/</loc>
     <xhtml:link
                 rel="alternate"
