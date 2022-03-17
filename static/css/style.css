@@ -201,6 +201,16 @@ nav ul li:hover>ul {
     color: #eee;
     margin-left: 0;
     height: 24px;
+    border-left-width: 0;
+}
+
+nav ul .lang ul a:hover {
+    border-left-width: 0;
+}
+
+/* hide the selected language in normal dsiplay as it's redundant */
+.lang a.selected {
+    display: none;
 }
 
 /* deal with menu button */
@@ -518,6 +528,7 @@ section.rnd li {
 
 section.rnd .content>.description {
     margin-bottom: 25px;
+    max-width: 600px;
 }
 
 section.rnd figure {
@@ -711,6 +722,36 @@ section.contact .icons img {
 
     section.contact ul {
         margin-top: 10px;
+    }
+
+
+}
+
+section.contact .eu-funding {
+    display: flex;
+    /* flex-basis: 10%; */
+    justify-content: space-between
+}
+
+section.contact .eu-funding figure {
+    max-width: 220px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+section.contact .eu-funding a:hover,
+section.contact .eu-funding a:focus {
+    color: #ccc;
+}
+
+
+@media screen and (max-width:1000px) {
+    section.contact .eu-funding {
+        flex-direction: column;
+    }
+
+    section.contact .eu-funding figure {
+        margin-top: 40px;
     }
 }
 

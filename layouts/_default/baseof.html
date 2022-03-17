@@ -11,8 +11,8 @@
 
     <title>three/thirds</title>
 
-    <meta name="title" content="Three Thirds"/>
-    <meta name="description" content="AI Solutions Company"/>
+    <meta name="title" content="Three Thirds" />
+    <meta name="description" content="AI Solutions Company" />
 
     <link rel="stylesheet" href="{{$root}}/css/style.css">
     <link rel="shortcut icon" id="favicon" href="{{$root}}/icons/favicon.png">
@@ -23,81 +23,93 @@
 
 <body>
 
-<header>
-    <div class="header-content">
-        <a href="{{$rootLang}}" class="logo"><img src="{{$root}}/icons/favicon.png"></a>
+    <header>
+        <div class="header-content">
+            <a href="{{$rootLang}}" class="logo"><img src="{{$root}}/icons/favicon.png"></a>
 
-        <nav id="menu">
-            <ul>
-                <li><a href="{{$rootLang}}">{{T "home"}}</a></li>
-                <li><span>{{T "services"}}</span>
-                    <ul>
-                        <li><a href="{{$rootLang}}/#startups">{{T "for_startups"}}</a>
-                        <li><a href="{{$rootLang}}/#smes">{{T "for_smes"}}</a>
-                        <li><a href="{{$rootLang}}/#enterprises">{{T "for_enterprises"}}</a>
-                    </ul>
-                </li>
-                <li><a href="{{$rootLang}}/#rnd">{{T "rnd"}}</a></li>
-                <li><a href="{{$rootLang}}/#team">{{T "team"}}</a></li>
-                <li><a href="{{$rootLang}}/#contact">{{T "contact"}}</a></li>
-                <li class="lang"><span>{{ .Site.Language | upper }}</span>
-                    <ul>
-                        {{ range $.Page.AllTranslations }}
-                        <li><a href="{{ .Permalink }}" {{if eq $.Site.Language .Language}} class="selected"
-                               {{end}}>{{.Language | upper}}</a></li>
-                        {{ end }}
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+            <nav id="menu">
+                <ul>
+                    <li><a href="{{$rootLang}}">{{T "home"}}</a></li>
+                    <li><span>{{T "services"}}</span>
+                        <ul>
+                            <li><a href="{{$rootLang}}/#startups">{{T "for_startups"}}</a>
+                            <li><a href="{{$rootLang}}/#smes">{{T "for_smes"}}</a>
+                            <li><a href="{{$rootLang}}/#enterprises">{{T "for_enterprises"}}</a>
+                        </ul>
+                    </li>
+                    <li><a href="{{$rootLang}}/#rnd">{{T "rnd"}}</a></li>
+                    <li><a href="{{$rootLang}}/#team">{{T "team"}}</a></li>
+                    <li><a href="{{$rootLang}}/#contact">{{T "contact"}}</a></li>
+                    <li class="lang"><span>{{ .Site.Language | upper }}</span>
+                        <ul>
+                            {{ range $.Page.AllTranslations }}
+                            <li><a href="{{ .Permalink }}" {{if eq $.Site.Language .Language}} class="selected"
+                                    {{end}}>{{.Language | upper}}</a></li>
+                            {{ end }}
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
 
-        <a href="#menu" class="menu-icon"></a>
-        <a href="#" class="close-icon"></a>
-    </div>
-</header>
-
-{{ block "main" . }}
-{{ end}}
-
-<section id="contact" class="contact">
-    <div class="content">
-        <h2>{{T "lets_talk"}}!</h2>
-        <p class="normal">{{T "got_a_problem" }}?</p>
-        <p class="normal">{{T "lets_discuss" }}!</p>
-
-        <p class="email"><a href="mailto:info@threethirds.ai">
-            <span class="light">info@three</span><span class="bold">thirds</span>.ai</a></p>
-
-        <div class="info">
-            <p class="bold">UAB „Trys trečiosios“</p>
-            <ul class="grid">
-                <li>
-                    <ul class="icons">
-                        <li><a href="https://github.com/threethirds"><img src="{{$root}}/icons/github.png"></a></li>
-                        <li><a href="https://github.com/human-ui"><img src="{{$root}}/icons/github.png"></a></li>
-                        <li><a href="https://www.linkedin.com/company/three-thirds-ai"><img
-                                src="{{$root}}/icons/linkedin-light.png"></a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li>M. K. Paco g. 19-10</li>
-                        <li>LT-10309 Vilnius</li>
-                        <li>{{T "lithuania"}}</li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li>{{T "company_code"}}: 305239772</li>
-                        <li>{{T "vat_number"}}: LT100012621716</li>
-                        <li>IBAN: LT797300010160013811</li>
-                    </ul>
-                </li>
-            </ul>
+            <a href="#menu" class="menu-icon"></a>
+            <a href="#" class="close-icon"></a>
         </div>
+    </header>
 
-    </div>
-</section>
+    {{ block "main" . }}
+    {{ end}}
+
+    <section id="contact" class="contact">
+        <div class="content">
+            <h2>{{T "lets_talk"}}!</h2>
+
+            <div class="eu-funding">
+                <div>
+                    <p class="normal">{{T "got_a_problem" }}?</p>
+                    <p class="normal">{{T "lets_discuss" }}!</p>
+                    <p class="email"><a href="mailto:info@threethirds.ai">
+                            <span class="light">info@three</span><span class="bold">thirds</span>.ai</a></p>
+                </div>
+
+                <a href="{{$rootLang}}/eu-funding.html">
+                    <figure>
+                        <img src="img/eu-funding-{{.Site.Language}}.png" />
+                        <figcaption>{{T "eu_funding"}}</figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="info">
+                <p class="bold">UAB „Trys trečiosios“</p>
+                <ul class="grid">
+                    <li>
+                        <ul class="icons">
+                            <li><a href="https://github.com/threethirds"><img src="{{$root}}/icons/github.png"></a></li>
+                            <li><a href="https://github.com/human-ui"><img src="{{$root}}/icons/github.png"></a></li>
+                            <li><a href="https://www.linkedin.com/company/three-thirds-ai"><img
+                                        src="{{$root}}/icons/linkedin-light.png"></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>M. K. Paco g. 19-10</li>
+                            <li>LT-10309 Vilnius</li>
+                            <li>{{T "lithuania"}}</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>{{T "company_code"}}: 305239772</li>
+                            <li>{{T "vat_number"}}: LT100012621716</li>
+                            <li>IBAN: LT797300010160013811</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
 </body>
+
 </html>

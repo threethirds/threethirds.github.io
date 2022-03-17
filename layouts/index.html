@@ -2,10 +2,10 @@
 {{ $root := .Site.BaseURL | replaceRE "/$" ""}}
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
-{{ $startups    := dict "service" $data.services.startups    "cases" (slice $data.cases.strato  $data.cases.turimeda) }}
-{{ $smes        := dict "service" $data.services.smes        "cases" (slice $data.cases.rubedos $data.cases.flexblow) }}
-{{ $enterprises := dict "service" $data.services.enterprises "cases" (slice $data.cases.girteka                     ) }}
-{{ $services    := slice $startups $smes $enterprises }}
+{{ $startups := dict "service" $data.services.startups "cases" (slice $data.cases.strato $data.cases.turimeda) }}
+{{ $smes := dict "service" $data.services.smes "cases" (slice $data.cases.rubedos $data.cases.flexblow) }}
+{{ $enterprises := dict "service" $data.services.enterprises "cases" (slice $data.cases.girteka ) }}
+{{ $services := slice $startups $smes $enterprises }}
 
 <section class="intro">
     <div class="content">
@@ -32,7 +32,6 @@
                         <p class="topic">{{.topic}}</p>
                         <p class="client">{{.client}}</p>
                         <p class="description">{{.description}}</p>
-                        <!-- <p class="read-more">read more...</p> -->
                     </figcaption>
                 </figure>
             </a>
