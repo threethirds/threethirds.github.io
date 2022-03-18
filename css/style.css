@@ -806,3 +806,7 @@ article a:hover,
 article a:focus {
     color: #2e130c;
 }
+
+article img {
+    max-width: 400px;
+}
