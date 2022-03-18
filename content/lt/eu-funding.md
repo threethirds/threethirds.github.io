@@ -1,8 +1,8 @@
 # ES finansavimas
 
-![](eu-funding-lt.png)
+![](/eu-funding-lt.png)
 
-„Trys trečiosios“ dalyvauja keliuose projektuose, bendrai finansuojamuose **Europos regioninės plėtros fondo**:
+„Trys trečiosios“ dalyvauja keliuose projektuose, bendrai finansuojamuose **Europos regioninės plėtros fondo**.
 
 ## Autonominių transporto priemonių valdymo sistemų saugumo analizės ir pagrindimo produktų kūrimas
 
@@ -19,7 +19,7 @@
 
 Šiuo projektu, įgyvendinamu [Mokslo, inovacijų ir technologijų agentūros (MITA)](https://mita.lrv.lt/), siekiama skatinti įmonių jungimąsi į klasterius, didinti klasterių brandą, skatinti augimą bei tarptautinį bendradarbiavimą.
 
-Dalyvaudamos šiame projekte, „Trys trečiosios“ tikisi padidinti savo kompetencijų ir teikaqmų paslaugų matomumą. Tuo tikslu mes tapome [Gyvybės mokslų skaitmeninių inovacijų centro](https://northtownvilnius.lt/klasteris/) partneriais.
+Dalyvaudamos šiame projekte, „Trys trečiosios“ tikisi padidinti savo kompetencijų ir teikiamų paslaugų matomumą. Tuo tikslu mes tapome [Gyvybės mokslų skaitmeninių inovacijų centro](https://northtownvilnius.lt/klasteris/) partneriais.
 
 
 *Projekto kodas: [01.2.1-LVPA-V-842-01-0002 (InoLink)](https://mita.lrv.lt/lt/veiklos-sritys/mita-vykdomi-projektai/inolink/)*
@@ -29,15 +29,15 @@ Dalyvaudamos šiame projekte, „Trys trečiosios“ tikisi padidinti savo kompe
 
 Šiuo projektu, įgyvendinamu [Mokslo, inovacijų ir technologijų agentūros (MITA)](https://mita.lrv.lt/), siekiama didinti įmonių inovatyvumą ir skatinti jas aktyviau plėtoti MTEPI veiklas, teikiant inovacijų konsultacines ir inovacijų paramos paslaugas įmonėms.
 
-Dalyvaudamos šiame projekte, „Trys trečiosios“ tikisi padidinti savo kompetencijų ir teikaqmų paslaugų matomumą.
+Dalyvaudamos šiame projekte, „Trys trečiosios“ tikisi padidinti savo kompetencijų ir teikiamų paslaugų matomumą.
 
 *Projekto kodas: [01.2.1-LVPA-V-842-01-0003 (InoSpurtas)](https://mita.lrv.lt/lt/veiklos-sritys/mita-vykdomi-projektai/inospurtas/)*
 
 
-## Integration of Lithuanian business into international value chains of Experimental Development and Innovation (InterInoLT)
+## Lietuvos verslo integracija į tarptautines eksperimentinės plėtros ir inovacijų vertės grandines (InterInoLT)
 
 Šiuo projektu, įgyvendinamu [Mokslo, inovacijų ir technologijų agentūros (MITA)](https://mita.lrv.lt/), siekiama sukurti Lietuvos eksperimentinės plėtros ir inovacijų atstovų („ambasadorių“) tinklą, viešinantį Lietuvos ekperimentinės plėtros ir inovacijų (EPI) potencialą užsienyje, didinant LT subjektų pritraukiamas lėšas iš tarptautinių MTEPI programų ir investicijų pritraukimą į globaliai rinkai skirtus inovacinius projektus bei aukštos pridėtinės vertės produktų ir paslaugų (inovacijų) eksportą.
 
-Dalyvaudamos šiame projekte, „Trys trečiosios“ tikisi padidinti savo kompetencijų ir teikaqmų paslaugų matomumą.
+Dalyvaudamos šiame projekte, „Trys trečiosios“ tikisi padidinti savo kompetencijų ir teikiamų paslaugų matomumą.
 
 *Projekto kodas: [01.2.1-LVPA-V-842-01-0008 (InterInoLT)](https://mita.lrv.lt/lt/veiklos-sritys/mita-vykdomi-projektai/interinolt/)*

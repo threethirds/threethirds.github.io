@@ -1,8 +1,8 @@
 # EU Funding
 
-![](eu-funding-en.png)
+![](/eu-funding-en.png)
 
-Three Thirds is participating is several projects, co-financed by the **European Regional Development Fund**:
+Three Thirds is participating is several projects, co-financed by the **European Regional Development Fund**.
 
 ## Safety Analysis and Argumentation Products R&D for Autonomous Transportation Systems
 
