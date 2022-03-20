@@ -7,7 +7,7 @@
 ## Our solution
 
 - Pallet detection system is based on an ensemble of off-the-shelf **convolutional neural networks for object detection**, adapted to the constraints of Rubedos' GPU-powered VIPER stereo camera. The system is capable of detecting a variety of pallets from multiple angles, distances, and lighting conditions.
-- Pallet localization is a purpose-built classical machine vision system that merges using **LIDAR** with **stereo camera**'s data streams. The system can successfully handle many types of pallets and occlusions.
+- Pallet localization is done by a purpose-built classical machine vision system that merges **LIDAR** and **stereo camera**'s data streams. The system can successfully handle many types of pallets and occlusions.
 - The solution is deployed at multiple locations at the warehouse and on the forklift, and communicates with the forklift control stack (developed by Rubedos) via the standard Robotic Operating System (ROS) protocols.
 - We managed the full scope of algorithm development, from **data gathering and annotation** service subcontracting to algorithm **training on the cloud** and deployment within Rubedos' infrastructure.
 
