@@ -12,7 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/lt/cases/flexblow/</guid>
-      <description>Real-time bottle blowing control system Client&amp;rsquo;s challenge FlexBlow is an SME specializing in PET bottle manufacturing and equipment. Their flagship product is a stretch blow molding machine that can be flexibly reconfigured to produce different shapes of bottles. However, the entire production process needs human supervision and continuous parameter adjustment in order to maintain bottle quality. We were contracted by Flexblow to design and implement an autonomous bottle quality control system.</description>
+      <description>Realaus laiko butelių pūtimo kontrolės sistema Kliento iššūkis FlexBlow yra MVĮ, kurios specializacija yra PET butelių gamyba ir įranga. Pagrindinis įmonės produktas yra butelių pūtimo mašina, kurią galima lanksčiai perkonfigūruoti, kad būtų galima gaminti įvairių formų butelius. Šiuo metu, siekiant išlaikyti butelių kokybę, visą gamybos procesą turi prižiūrėti žmogus ir koreguoti pūtimo parametrus. Bendrovė &amp;ldquo;Flexblow&amp;rdquo; su mumis sudarė sutartį dėl autonominės butelių kokybės kontrolės sistemos sukūrimo ir įdiegimo.
+Mūsų sprendimas Projektui reikėjo trijų komponentų: valdymo jutiklio, valdymo algoritmų ir techninės įrangos, skirtos kokybės kontrolei gamyboje vykdyti.</description>
     </item>
     
     <item>
@@ -21,8 +22,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/lt/cases/girteka/</guid>
-      <description>Operational change impact measurement Client&amp;rsquo;s challenge Girteka is the largest full truck load transport company in Europe, with more than 8000 trucks in its fleet. In 2020, they started a digital transformation and were onboarding a vendor for load planning optimization. We were tasked with assessing company&amp;rsquo;s needs and providing an accurate measurement of the impact of this optimization.
-Our solution  We delivered a suite of KPIs that were aligned with all the stakeholders, as well as an implementation of necessary computations, a dashboard for visualization, and a detailed documentation.</description>
+      <description>Veiklos pokyčių poveikio vertinimas Kliento iššūkis Girteka yra didžiausia Europoje pilnų krovinių gabenimo sunkvežimiais bendrovė, turinti daugiau kaip 8000 sunkvežimių. 2020 m. ji pradėjo skaitmeninę transformaciją ir buvo pasitelkusi tiekėją krovinių planavimo optimizavimui. Mums buvo pavesta įvertinti įmonės poreikius ir pateikti tikslų šio optimizavimo poveikio vertinimą.
+Mūsų sprendimas  Pateikėme su visomis suinteresuotosiomis šalimis suderintą KPI rinkinį, taip pat įgyvendinome reikiamus skaičiavimus, sukūrėme vizualizavimui skirtą prietaisų skydelį ir išsamią dokumentaciją. Sukūrėme Bayeso struktūrinį laiko eilučių modelį, kuris atskyrė optimizavimo sprendimo poveikį nuo kalendorinių įvykių ir verslo sezonų poveikio.</description>
     </item>
     
     <item>
@@ -31,8 +32,8 @@ Our solution  We delivered a suite of KPIs that were aligned with all the stakeh
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/lt/cases/rubedos/</guid>
-      <description>Pallet detection and localization system Client&amp;rsquo;s challenge Rubedos is an SME specializing in mobile robotics. In 2021 they started developing an autonomous forklift platform, aiming to autonomously locate a pallet in a loading zone and transfer it to the target location. We were contracted by Rubedos to develop a pallet detection and localization stack that identifies pallets, their orientation and location from a stereo image and LIDAR inputs.
-Our solution  Pallet detection system is based on an ensemble of off-the-shelf convolutional neural networks for object detection, adapted to the constraints of Rubedos&amp;rsquo; GPU-powered VIPER stereo camera.</description>
+      <description>Padėklų aptikimo ir lokalizavimo sistema Kliento iššūkis Rubedos yra MVĮ, kurios specializacija - mobilioji robotika. 2021 m. ji pradėjo kurti autonominio krautuvo platformą, kurios tikslas - autonomiškai nustatyti paletės buvimo vietą pakrovimo zonoje ir perkelti ją į tikslinę vietą. Bendrovė &amp;ldquo;Rubedos&amp;rdquo; su mumis sudarė sutartį, kad sukurtume padėklų aptikimo ir lokalizavimo algoritmus, kurie pagal stereovaizdą ir LIDAR įvesties duomenis nustatytų padėklus, jų orientaciją ir vietą.
+Mūsų sprendimas  Padėklų aptikimo sistema pagrįsta gatavų konvoliucinių neuroninių tinklų, ansambliu, pritaikytu prie &amp;ldquo;Rubedos&amp;rdquo; GPU varomos VIPER stereokameros apribojimų.</description>
     </item>
     
     <item>
@@ -41,8 +42,9 @@ Our solution  Pallet detection system is based on an ensemble of off-the-shelf c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/lt/cases/strato/</guid>
-      <description>Modular house planning Client&amp;rsquo;s challenge strato.homes is an innovative startup that designs and builds modular houses from purchase to move-in in mere three months. A part of their vision is an AI planner that would create a floor-plan based on buyer&amp;rsquo;s choices and engineering restrictions imposed by their modular system. We were contracted by strato.homes to build a prototype of the AI planner.
-Our solution Our solution is comprised of three main components:</description>
+      <description>Modulinių namų planavimas Kliento iššūkis strato.homes yra novatoriškas startuolis, kuris projektuoja ir stato modulinius namus vos per tris mėnesius nuo įsigijimo iki įsikėlimo. Dalis jų vizijos - DI planuotojas, kuris sukurtų išplanavimo brėžinius pagal pirkėjo pasirinkimus ir jų modulinės sistemos nustatytus inžinerinius apribojimus. Mums buvo pavesta sukurti šio dirbtinio intelekto planuotojo prototipą.
+Mūsų sprendimas Mūsų sprendimą sudaro trys pagrindiniai komponentai:
+ Grindų plano generavimo algoritmas, kuriame planavimas formuluojamas kaip tiesinio programavimo ir apribojimų programavimo uždavinys ir sprendžiamas naudojant coin-or ir ortools įrankius.</description>
     </item>
     
     <item>
@@ -51,7 +53,7 @@ Our solution Our solution is comprised of three main components:</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/lt/cases/turimeda/</guid>
-      <description>EndoArt: Aortic aneurysm segmentation and monitoring system Client&amp;rsquo;s challenge Turimeda is an early stage MedTech startup that wants to measure and monitor internal organs without tedious manual labeling effort. Their first product focuses on abdominal aortic aneurysm – a life-threatening condition when aorta, the main blood vessel, expands and may rupture. Turimeda aims to develop a suite of tools that would help doctors track the development of condition over time based on regularly performed CT scans.</description>
+      <description>EndoArt: Aortos aneurizmos segmentavimo ir stebėjimo sistema Kliento iššūkis Turimeda yra ankstyvosios stadijos MedTech startuolis, kuris nori matuoti ir stebėti vidaus organus be varginančių rankinio ženklinimo pastangų. Pirmasis jų produktas skirtas abdominalinės aortos aneurizmai - gyvybei pavojingai būklei, kai aorta, pagrindinė kraujagyslė, išsiplečia ir gali plyšti. Turimeda siekia sukurti priemonių rinkinį, kuris padėtų gydytojams stebėti būklės vystymąsi laikui bėgant pagal reguliariai atliekamas kompiuterinės tomografijos nuotraukas. Mūsų užduotis buvo sukurti algoritmą, kuris iš kompiuterinės tomografijos nuotraukų apskaičiuotų tikslius aortos matmenis.</description>
     </item>
     
   </channel>

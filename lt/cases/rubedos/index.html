@@ -62,21 +62,21 @@
 
 <article>
     <div class="content">
-        <h1 id="pallet-detection-and-localization-system">Pallet detection and localization system</h1>
-<h2 id="clients-challenge">Client&rsquo;s challenge</h2>
-<p><a href="https://rubedos.com">Rubedos</a> is an SME specializing in <strong>mobile robotics</strong>. In 2021 they started developing an autonomous forklift platform, aiming to autonomously locate a pallet in a loading zone and transfer it to the target location. We were contracted by Rubedos to develop a pallet detection and localization stack that identifies pallets, their orientation and location from a stereo image and LIDAR inputs.</p>
-<h2 id="our-solution">Our solution</h2>
+        <h1 id="padėklų-aptikimo-ir-lokalizavimo-sistema">Padėklų aptikimo ir lokalizavimo sistema</h1>
+<h2 id="kliento-iššūkis">Kliento iššūkis</h2>
+<p><a href="https://rubedos.com">Rubedos</a> yra MVĮ, kurios specializacija - <strong>mobilioji robotika</strong>. 2021 m. ji pradėjo kurti autonominio krautuvo platformą, kurios tikslas - autonomiškai nustatyti paletės buvimo vietą pakrovimo zonoje ir perkelti ją į tikslinę vietą. Bendrovė &ldquo;Rubedos&rdquo; su mumis sudarė sutartį, kad sukurtume padėklų aptikimo ir lokalizavimo algoritmus, kurie pagal stereovaizdą ir LIDAR įvesties duomenis nustatytų padėklus, jų orientaciją ir vietą.</p>
+<h2 id="mūsų-sprendimas">Mūsų sprendimas</h2>
 <ul>
-<li>Pallet detection system is based on an ensemble of off-the-shelf <strong>convolutional neural networks for object detection</strong>, adapted to the constraints of Rubedos&rsquo; GPU-powered VIPER stereo camera. The system is capable of detecting a variety of pallets from multiple angles, distances, and lighting conditions.</li>
-<li>Pallet localization is a purpose-built classical machine vision system that merges using <strong>LIDAR</strong> with <strong>stereo camera</strong>&rsquo;s data streams. The system can successfully handle many types of pallets and occlusions.</li>
-<li>The solution is deployed at multiple locations at the warehouse and on the forklift, and communicates with the forklift control stack (developed by Rubedos) via the standard Robotic Operating System (ROS) protocols.</li>
-<li>We managed the full scope of algorithm development, from <strong>data gathering and annotation</strong> service subcontracting to algorithm <strong>training on the cloud</strong> and deployment within Rubedos&rsquo; infrastructure.</li>
+<li>Padėklų aptikimo sistema pagrįsta gatavų <strong>konvoliucinių neuroninių tinklų</strong>, ansambliu, pritaikytu prie &ldquo;Rubedos&rdquo; GPU varomos VIPER stereokameros apribojimų. Sistema gali aptikti įvairius padėklus iš įvairių kampų, atstumų ir apšvietimo sąlygų.</li>
+<li>Padėklų vietos nustatymui sukurėme specialią klasikinė mašininės regos sistemą, kuri sujungia <strong>LIDAR</strong> ir <strong>stereo kameros</strong> duomenų srautus. Sistema gali sėkmingai dirbti su daugelio tipų padėklais ir užstojimais.</li>
+<li>Sprendimas įdiegtas keliose sandėlio vietose ir krautuve, o su krautuvo valdymo paketu (kurį sukūrė &ldquo;Rubedos&rdquo;) bendrauja standartiniais robotų operacinės sistemos (ROS) protokolais.</li>
+<li>Mes valdėme visą algoritmų kūrimo apimtį - nuo <strong>duomenų rinkimo ir anotavimo</strong> paslaugų subrangos iki algoritmų <strong>mokymo debesyje</strong> ir diegimo &ldquo;Rubedos&rdquo; infrastruktūroje.</li>
 </ul>
-<h2 id="impact">Impact</h2>
+<h2 id="poveikis">Poveikis</h2>
 <ul>
-<li>Within <strong>five months</strong>, we delivered a complete pallet detection and localization suite.</li>
-<li>Using our solution, Rubedos autonomous forklift PoC successfully <strong>passed the trials</strong> of a test deployment at the warehouse of a <strong>major logistics company</strong>.</li>
-<li>We are continuing our collaboration to <strong>deploy an MVP</strong> at a large logistics center by the end of 2022.</li>
+<li>Per <strong>penkis mėnesius</strong> pristatėme visą padėklų aptikimo ir lokalizavimo algoritmų rinkinį.</li>
+<li>Naudojant mūsų sprendimą, &ldquo;Rubedos&rdquo; autonominis krautuvo prototipas sėkmingai <strong>įveikė bandymus</strong> didelės logistikos įmonės sandėlyje.</li>
+<li>Tęsiame bendradarbiavimą, siekdami iki 2022 m. pabaigos <strong>įdiegti pirmąją versiją</strong> dideliame logistikos centre.</li>
 </ul>
 
     </div>

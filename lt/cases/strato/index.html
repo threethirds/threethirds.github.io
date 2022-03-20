@@ -62,20 +62,20 @@
 
 <article>
     <div class="content">
-        <h1 id="modular-house-planning">Modular house planning</h1>
-<h2 id="clients-challenge">Client&rsquo;s challenge</h2>
-<p><a href="https://strato.homes/">strato.homes</a> is an innovative startup that designs and builds <strong>modular houses</strong> from purchase to move-in in mere three months. A part of their vision is an <strong>AI planner</strong> that would create a floor-plan based on buyer&rsquo;s choices and engineering restrictions imposed by their modular system. We were contracted by strato.homes to build a prototype of the AI planner.</p>
-<h2 id="our-solution">Our solution</h2>
-<p>Our solution is comprised of three main components:</p>
+        <h1 id="modulinių-namų-planavimas">Modulinių namų planavimas</h1>
+<h2 id="kliento-iššūkis">Kliento iššūkis</h2>
+<p><a href="https://strato.homes/">strato.homes</a> yra novatoriškas startuolis, kuris projektuoja ir stato <strong>modulinius namus</strong> vos per tris mėnesius nuo įsigijimo iki įsikėlimo. Dalis jų vizijos - <strong>DI planuotojas</strong>, kuris sukurtų išplanavimo brėžinius pagal pirkėjo pasirinkimus ir jų modulinės sistemos nustatytus inžinerinius apribojimus. Mums buvo pavesta sukurti šio dirbtinio intelekto planuotojo prototipą.</p>
+<h2 id="mūsų-sprendimas">Mūsų sprendimas</h2>
+<p>Mūsų sprendimą sudaro trys pagrindiniai komponentai:</p>
 <ol>
-<li>A floor-plan generation algorithm that formulates planning as a <strong>linear programming</strong> and <strong>constraint programming</strong> problem and solves it using <em>coin-or</em> and <em>ortools</em> solvers. We derived planning constraints by working closely with strato.homes&rsquo; architects, and as a result our algorithm is capable of generating sensible plans for thousands of different configuration options. We also investigated reinforcement learning and conditional variational encoder approaches but found them unpractical at this stage.</li>
-<li>A <strong>cloud infrastructure</strong> setup for high intensity computations.</li>
-<li>A <strong>backend service</strong> and a <strong>user interface</strong> for the exploration of results.</li>
+<li>Grindų plano generavimo algoritmas, kuriame planavimas formuluojamas kaip <strong>tiesinio programavimo</strong> ir <strong>apribojimų programavimo</strong> uždavinys ir sprendžiamas naudojant <em>coin-or</em> ir <em>ortools</em> įrankius. Planavimo apribojimus nustatėme glaudžiai bendradarbiaudami su strato.homes architektais, todėl mūsų algoritmas gali generuoti racionalius planus tūkstančiams skirtingų konfigūracijos variantų. Taip pat tyrinėjome skatinamojo mokymosi ir sąlyginio variacinio kodavimo metodus, tačiau nustatėme, kad šiame etape jie yra nepraktiški.</li>
+<li>Didelio intensyvumo skaičiavimams skirta <strong>debesijos infrastruktūra</strong>.</li>
+<li><strong>Žiniatinklio paslauga</strong> ir <strong>vartotojo sąsaja</strong>, skirta rezultatams tirti.</li>
 </ol>
-<h2 id="impact">Impact</h2>
+<h2 id="poveikis">Poveikis</h2>
 <ul>
-<li>We delivered a working PoC planner in <strong>7 months</strong>, allowing strato.homes to quickly gauge the potential of this approach.</li>
-<li>Encouraged by our PoC, strato.homes is continuing to expand the feature set, and we hope to see it deployed soon!</li>
+<li>Per <strong>7 mėnesius</strong> sukūrėme veikiantį planuoklio prototipą, todėl strato.homes galėjo greitai įvertinti šio metodo potencialą.</li>
+<li>Padrąsinta mūsų prototipo, strato.homes toliau plečia funkcijų rinkinį ir tikimės, kad netrukus planuotojas bus naudojamas strato.homes klientų.</li>
 </ul>
 
     </div>
