@@ -1,17 +1,16 @@
-# EndoArt: Aortic aneurysm segmentation and monitoring system
+# EndoArt: Aortos aneurizmos segmentavimo ir stebėjimo sistema
 
-## Client's challenge
+## Kliento iššūkis
 
-[Turimeda](https://www.turimeda.com/) is an early stage MedTech startup that wants to measure and monitor internal organs without tedious manual labeling effort. Their first product focuses on *abdominal aortic aneurysm* – a life-threatening condition when aorta, the main blood vessel, expands and may rupture. Turimeda aims to develop a suite of tools that would help doctors track the development of condition over time based on regularly performed CT scans. Our task was to develop an algorithm which computes the exact dimensions of aorta from the CT scans.
+[Turimeda](https://www.turimeda.com/) yra ankstyvosios stadijos MedTech startuolis, kuris nori matuoti ir stebėti vidaus organus be varginančių rankinio ženklinimo pastangų. Pirmasis jų produktas skirtas *abdominalinės aortos aneurizmai* - gyvybei pavojingai būklei, kai aorta, pagrindinė kraujagyslė, išsiplečia ir gali plyšti. Turimeda siekia sukurti priemonių rinkinį, kuris padėtų gydytojams stebėti būklės vystymąsi laikui bėgant pagal reguliariai atliekamas kompiuterinės tomografijos nuotraukas. Mūsų užduotis buvo sukurti algoritmą, kuris iš kompiuterinės tomografijos nuotraukų apskaičiuotų tikslius aortos matmenis.
 
-## Our solution
+## Mūsų sprendimas
 
-- We built a PyTorch-based **deep neural network** for aortic aneurysm segmentation, trained for multiple days on our in-house cloud infrastructure.
-- We developed a **3D post-processing stack** for locating and measuring landmarks on the reconstructed aorta's 3D mesh.
-- We deployed our algorithm as a web service on a cloud infrastructure as well as packaged it as a standalone Docker container
-- for the on-prem deployments.
+- Sukūrėme *PyTorch* pagrįstą **gilųjį neuroninį tinklą**, skirtą aortos aneurizmai segmentuoti, kurį apmokėme savo vidinėje debesijos infrastruktūroje.
+- Sukūrėme **specializuotus 3D algoritmus**, kurie rekonstruotos aortos 3D tinklelyje randa orientaciniams taškus ir išmatuoja reikiamus dydžius.
+- Savo algoritmą įdiegėme kaip žiniatinklio paslaugą debesijos infrastruktūroje, taip pat supakavome jį kaip atskirą *Docker* konteinerį skirtą vietiniam diegimui.
 
-## Impact
+## Poveikis
 
-- We delivered a PoC in 12 months, reaching the field's standard **Dice index of .9** in a blind test on unseen patients CT scans.
-- The PoC is currently tested at three national hospitals in Lithuania to get ready for clinical trials.
+- Per 12 mėnesių sukūrėme prototipą, pasiekėme standartinį šios srities **Dice indeksą 0,9**, atlikdami nematytų pacientų kompiuterinės tomografijos tyrimų testą.
+- Šiuo metu prototipas testuojamas trijose Lietuvos nacionalinėse ligoninėse, siekiant pasirengti klinikiniams tyrimams.

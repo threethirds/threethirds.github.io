@@ -1,18 +1,18 @@
-# Modular house planning 
+# Modulinių namų planavimas
 
-## Client's challenge
+## Kliento iššūkis
 
-[strato.homes](https://strato.homes/) is an innovative startup that designs and builds **modular houses** from purchase to move-in in mere three months. A part of their vision is an **AI planner** that would create a floor-plan based on buyer's choices and engineering restrictions imposed by their modular system. We were contracted by strato.homes to build a prototype of the AI planner.
+[strato.homes](https://strato.homes/) yra novatoriškas startuolis, kuris projektuoja ir stato **modulinius namus** vos per tris mėnesius nuo įsigijimo iki įsikėlimo. Dalis jų vizijos - **DI planuotojas**, kuris sukurtų išplanavimo brėžinius pagal pirkėjo pasirinkimus ir jų modulinės sistemos nustatytus inžinerinius apribojimus. Mums buvo pavesta sukurti šio dirbtinio intelekto planuotojo prototipą.
 
-## Our solution
+## Mūsų sprendimas
 
-Our solution is comprised of three main components:
+Mūsų sprendimą sudaro trys pagrindiniai komponentai:
 
-1. A floor-plan generation algorithm that formulates planning as a **linear programming** and **constraint programming** problem and solves it using *coin-or* and *ortools* solvers. We derived planning constraints by working closely with strato.homes' architects, and as a result our algorithm is capable of generating sensible plans for thousands of different configuration options. We also investigated reinforcement learning and conditional variational encoder approaches but found them unpractical at this stage.
-2. A **cloud infrastructure** setup for high intensity computations.
-3. A **backend service** and a **user interface** for the exploration of results.
+1. Grindų plano generavimo algoritmas, kuriame planavimas formuluojamas kaip **tiesinio programavimo** ir **apribojimų programavimo** uždavinys ir sprendžiamas naudojant *coin-or* ir *ortools* įrankius. Planavimo apribojimus nustatėme glaudžiai bendradarbiaudami su strato.homes architektais, todėl mūsų algoritmas gali generuoti racionalius planus tūkstančiams skirtingų konfigūracijos variantų. Taip pat tyrinėjome skatinamojo mokymosi ir sąlyginio variacinio kodavimo metodus, tačiau nustatėme, kad šiame etape jie yra nepraktiški.
+2. Didelio intensyvumo skaičiavimams skirta **debesijos infrastruktūra**.
+3. **Žiniatinklio paslauga** ir **vartotojo sąsaja**, skirta rezultatams tirti.
 
-## Impact
+## Poveikis
 
-- We delivered a working PoC planner in **7 months**, allowing strato.homes to quickly gauge the potential of this approach.
-- Encouraged by our PoC, strato.homes is continuing to expand the feature set, and we hope to see it deployed soon!
+- Per **7 mėnesius** sukūrėme veikiantį planuoklio prototipą, todėl strato.homes galėjo greitai įvertinti šio metodo potencialą.
+- Padrąsinta mūsų prototipo, strato.homes toliau plečia funkcijų rinkinį ir tikimės, kad netrukus planuotojas bus naudojamas strato.homes klientų.

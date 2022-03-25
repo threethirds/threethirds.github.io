@@ -1,18 +1,18 @@
-# Pallet detection and localization system
+# Padėklų aptikimo ir lokalizavimo sistema
 
-## Client's challenge
+## Kliento iššūkis
 
-[Rubedos](https://rubedos.com) is an SME specializing in **mobile robotics**. In 2021 they started developing an autonomous forklift platform, aiming to autonomously locate a pallet in a loading zone and transfer it to the target location. We were contracted by Rubedos to develop a pallet detection and localization stack that identifies pallets, their orientation and location from a stereo image and LIDAR inputs.
+[Rubedos](https://rubedos.com) yra MVĮ, kurios specializacija - **mobilioji robotika**. 2021 m. ji pradėjo kurti autonominio krautuvo platformą, kurios tikslas - autonomiškai nustatyti paletės buvimo vietą pakrovimo zonoje ir perkelti ją į tikslinę vietą. Bendrovė "Rubedos" su mumis sudarė sutartį, kad sukurtume padėklų aptikimo ir lokalizavimo algoritmus, kurie pagal stereovaizdą ir LIDAR įvesties duomenis nustatytų padėklus, jų orientaciją ir vietą.
 
-## Our solution
+## Mūsų sprendimas
 
-- Pallet detection system is based on an ensemble of off-the-shelf **convolutional neural networks for object detection**, adapted to the constraints of Rubedos' GPU-powered VIPER stereo camera. The system is capable of detecting a variety of pallets from multiple angles, distances, and lighting conditions.
-- Pallet localization is a purpose-built classical machine vision system that merges using **LIDAR** with **stereo camera**'s data streams. The system can successfully handle many types of pallets and occlusions.
-- The solution is deployed at multiple locations at the warehouse and on the forklift, and communicates with the forklift control stack (developed by Rubedos) via the standard Robotic Operating System (ROS) protocols.
-- We managed the full scope of algorithm development, from **data gathering and annotation** service subcontracting to algorithm **training on the cloud** and deployment within Rubedos' infrastructure.
+- Padėklų aptikimo sistema pagrįsta gatavų **konvoliucinių neuroninių tinklų**, ansambliu, pritaikytu prie "Rubedos" GPU varomos VIPER stereokameros apribojimų. Sistema gali aptikti įvairius padėklus iš įvairių kampų, atstumų ir apšvietimo sąlygų.
+- Padėklų vietos nustatymui sukurėme specialią klasikinė mašininės regos sistemą, kuri sujungia **LIDAR** ir **stereo kameros** duomenų srautus. Sistema gali sėkmingai dirbti su daugelio tipų padėklais ir užstojimais.
+- Sprendimas įdiegtas keliose sandėlio vietose ir krautuve, o su krautuvo valdymo paketu (kurį sukūrė "Rubedos") bendrauja standartiniais robotų operacinės sistemos (ROS) protokolais.
+- Mes valdėme visą algoritmų kūrimo apimtį - nuo **duomenų rinkimo ir anotavimo** paslaugų subrangos iki algoritmų **mokymo debesyje** ir diegimo "Rubedos" infrastruktūroje.
 
-## Impact
+## Poveikis
 
-- Within **five months**, we delivered a complete pallet detection and localization suite.
-- Using our solution, Rubedos autonomous forklift PoC successfully **passed the trials** of a test deployment at the warehouse of a **major logistics company**.
-- We are continuing our collaboration to **deploy an MVP** at a large logistics center by the end of 2022.
+- Per **penkis mėnesius** pristatėme visą padėklų aptikimo ir lokalizavimo algoritmų rinkinį.
+- Naudojant mūsų sprendimą, "Rubedos" autonominis krautuvo prototipas sėkmingai **įveikė bandymus** didelės logistikos įmonės sandėlyje.
+- Tęsiame bendradarbiavimą, siekdami iki 2022 m. pabaigos **įdiegti pirmąją versiją** dideliame logistikos centre.
