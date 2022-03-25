@@ -446,11 +446,12 @@ section.services figure {
     text-align: center;
 }
 
-section.services li img {
-    height: 660px;
+section.services img {
+    padding: 30px 30px;
 }
 
 section.services figcaption {
+    max-width: 300px;
     font-size: 17px;
     font-weight: 700;
     color: black;

@@ -1,28 +1,28 @@
 [strato]
 id = 'strato'
 client = 'Strato.homes'
-description = 'Modular house planning'
+description = 'Intelligent floor plan design'
 img = 'icons/strato.png'
 topic = 'Constraint Optimization'
 
 [turimeda]
 id = 'turimeda'
 client = 'Turimeda'
-description = 'Aortic aneurysm quantification from CT scans'
-img = 'icons/aorta.png'
+description = '3D blood vessel reconstruction'
+img = 'icons/turimeda.png'
 topic = 'Medical Image Analysis'
 
 [rubedos]
 id = 'rubedos'
 client = 'Rubedos'
-description = 'Pallet detection system'
+description = 'Payload localization from video for autonomous forklifts'
 img = 'icons/rubedos.png'
 topic = '3D Image Analysis'
 
 [flexblow]
 id = 'flexblow'
 client = 'FlexBlow'
-description = 'Real-time bottle blowing control system'
+description = 'Real-time bottle quality control'
 img = 'icons/flexblow.png'
 topic = 'Optimal Control'
 
@@ -30,5 +30,5 @@ topic = 'Optimal Control'
 id = 'girteka'
 client = 'Girteka'
 description = 'Operational change impact measurement'
-img = 'icons/bct.png'
-topic = 'Causal Analysis'
+img = 'icons/girteka.png'
+topic = 'Causal Time Series Analysis'
