@@ -12,6 +12,8 @@ Our solution is comprised of three main components:
 2. A **cloud infrastructure** setup for high intensity computations.
 3. A **backend service** and a **user interface** for the exploration of results.
 
+<!-- ![Strato UI](/images/strato.png) -->
+
 ## Impact
 
 - We delivered a working PoC planner in **7 months**, allowing strato.homes to quickly gauge the potential of this approach.
