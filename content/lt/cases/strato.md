@@ -12,6 +12,8 @@ Mūsų sprendimą sudaro trys pagrindiniai komponentai:
 2. Didelio intensyvumo skaičiavimams skirta **debesijos infrastruktūra**.
 3. **Žiniatinklio paslauga** ir **vartotojo sąsaja**, skirta rezultatams tirti.
 
+<!-- ![Strato UI](/images/strato.png) -->
+
 ## Poveikis
 
 - Per **7 mėnesius** sukūrėme veikiantį planuoklio prototipą, todėl strato.homes galėjo greitai įvertinti šio metodo potencialą.
