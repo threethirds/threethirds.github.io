@@ -1,5 +1,7 @@
 # Pallet detection and localization system
 
+![Pallet detection results](/images/strato.png)
+
 ## Client's challenge
 
 [Rubedos](https://rubedos.com) is an SME specializing in **mobile robotics**. In 2021 they started developing an autonomous forklift platform, aiming to autonomously locate a pallet in a loading zone and transfer it to the target location. We were contracted by Rubedos to develop a pallet detection and localization stack that identifies pallets, their orientation and location from a stereo image and LIDAR inputs.

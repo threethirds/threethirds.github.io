@@ -29,6 +29,7 @@ a {
 img {
     max-width: auto;
     max-height: 50vh;
+    object-fit: contain;
 }
 
 article,

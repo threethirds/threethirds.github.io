@@ -1,5 +1,7 @@
 # Padėklų aptikimo ir lokalizavimo sistema
 
+![Pallet detection results](/images/strato.png)
+
 ## Kliento iššūkis
 
 [Rubedos](https://rubedos.com) yra MVĮ, kurios specializacija - **mobilioji robotika**. 2021 m. ji pradėjo kurti autonominio krautuvo platformą, kurios tikslas - autonomiškai nustatyti paletės buvimo vietą pakrovimo zonoje ir perkelti ją į tikslinę vietą. Bendrovė "Rubedos" su mumis sudarė sutartį, kad sukurtume padėklų aptikimo ir lokalizavimo algoritmus, kurie pagal stereovaizdą ir LIDAR įvesties duomenis nustatytų padėklus, jų orientaciją ir vietą.
