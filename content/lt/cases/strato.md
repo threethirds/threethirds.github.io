@@ -1,5 +1,7 @@
 # Modulinių namų planavimas
 
+![Strato UI](/images/strato.png)
+
 ## Kliento iššūkis
 
 [strato.homes](https://strato.homes/) yra novatoriškas startuolis, kuris projektuoja ir stato **modulinius namus** vos per tris mėnesius nuo įsigijimo iki įsikėlimo. Dalis jų vizijos - **DI planuotojas**, kuris sukurtų išplanavimo brėžinius pagal pirkėjo pasirinkimus ir jų modulinės sistemos nustatytus inžinerinius apribojimus. Mums buvo pavesta sukurti šio dirbtinio intelekto planuotojo prototipą.
@@ -12,7 +14,6 @@ Mūsų sprendimą sudaro trys pagrindiniai komponentai:
 2. Didelio intensyvumo skaičiavimams skirta **debesijos infrastruktūra**.
 3. **Žiniatinklio paslauga** ir **vartotojo sąsaja**, skirta rezultatams tirti.
 
-<!-- ![Strato UI](/images/strato.png) -->
 
 ## Poveikis
 

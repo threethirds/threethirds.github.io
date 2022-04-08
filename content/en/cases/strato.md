@@ -1,5 +1,7 @@
 # Modular house planning 
 
+![Strato UI](/images/strato.png)
+
 ## Client's challenge
 
 [strato.homes](https://strato.homes/) is an innovative startup that designs and builds **modular houses** from purchase to move-in in mere three months. A part of their vision is an **AI planner** that would create a floor-plan based on buyer's choices and engineering restrictions imposed by their modular system. We were contracted by strato.homes to build a prototype of the AI planner.
@@ -12,7 +14,6 @@ Our solution is comprised of three main components:
 2. A **cloud infrastructure** setup for high intensity computations.
 3. A **backend service** and a **user interface** for the exploration of results.
 
-<!-- ![Strato UI](/images/strato.png) -->
 
 ## Impact
 
