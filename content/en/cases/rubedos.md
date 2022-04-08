@@ -1,6 +1,6 @@
 # Pallet detection and localization system
 
-![Pallet detection results](/images/strato.png)
+![Pallet detection results](/images/rubedos.png)
 
 ## Client's challenge
 

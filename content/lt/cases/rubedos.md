@@ -1,6 +1,6 @@
 # Padėklų aptikimo ir lokalizavimo sistema
 
-![Pallet detection results](/images/strato.png)
+![Pallet detection results](/images/rubedos.png)
 
 ## Kliento iššūkis
 
