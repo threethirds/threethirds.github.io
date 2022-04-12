@@ -10,7 +10,7 @@
 
 Mūsų sprendimą sudaro trys pagrindiniai komponentai:
 
-1. Grindų plano generavimo algoritmas, kuriame planavimas formuluojamas kaip **tiesinio programavimo** ir **apribojimų programavimo** uždavinys ir sprendžiamas naudojant *coin-or* ir *ortools* įrankius. Planavimo apribojimus nustatėme glaudžiai bendradarbiaudami su strato.homes architektais, todėl mūsų algoritmas gali generuoti racionalius planus tūkstančiams skirtingų konfigūracijos variantų. Taip pat tyrinėjome skatinamojo mokymosi ir sąlyginio variacinio kodavimo metodus, tačiau nustatėme, kad šiame etape jie yra nepraktiški.
+1. Grindų plano generavimo algoritmas, kuriame planavimas formuluojamas kaip **tiesinio programavimo** ir **apribojimų programavimo** uždavinys. Planavimo apribojimus nustatėme glaudžiai bendradarbiaudami su strato.homes architektais, todėl mūsų algoritmas gali generuoti racionalius planus tūkstančiams skirtingų konfigūracijos variantų.
 2. Didelio intensyvumo skaičiavimams skirta **debesijos infrastruktūra**.
 3. **Žiniatinklio paslauga** ir **vartotojo sąsaja**, skirta rezultatams tirti.
 
@@ -18,4 +18,4 @@ Mūsų sprendimą sudaro trys pagrindiniai komponentai:
 ## Poveikis
 
 - Per **7 mėnesius** sukūrėme veikiantį planuoklio prototipą, todėl strato.homes galėjo greitai įvertinti šio metodo potencialą.
-- Padrąsinta mūsų prototipo, strato.homes toliau plečia funkcijų rinkinį ir tikimės, kad netrukus planuotojas bus naudojamas strato.homes klientų.
+- Padrąsinta mūsų prototipo, strato.homes toliau plečia AI planuotojo pavadinto [strato.vip](https://strato.vip) funkcijų rinkinį.
