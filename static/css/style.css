@@ -747,6 +747,10 @@ section.contact .eu-funding a:focus {
     color: #ccc;
 }
 
+section.contact .eu-funding img {
+    max-width: 100%;
+}
+
 
 @media screen and (max-width:1000px) {
     section.contact .eu-funding {
