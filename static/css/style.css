@@ -26,7 +26,7 @@ a {
     color: #333;
 }
 
-img {
+img, video {
     max-width: auto;
     max-height: 50vh;
     object-fit: contain;

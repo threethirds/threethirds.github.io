@@ -1,6 +1,9 @@
 # Modular house planning 
 
-![Strato UI](/images/strato.png)
+<video autoplay>
+    <source src="/video/strato.mp4" type="video/mp4">
+    <img src="/images/strato.png" alt="Strato UI">
+</video>
 
 ## Client's challenge
 
