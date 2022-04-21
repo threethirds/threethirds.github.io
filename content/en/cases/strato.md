@@ -1,9 +1,11 @@
 # Modular house planning 
 
-<video autoplay>
+{{< rawhtml >}}
+<video controls autoplay muted playsinline>
     <source src="/video/strato.mp4" type="video/mp4">
     <img src="/images/strato.png" alt="Strato UI">
 </video>
+{{< /rawhtml >}}
 
 ## Client's challenge
 

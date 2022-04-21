@@ -1,6 +1,11 @@
 # Modulinių namų planavimas
 
-![Strato UI](/images/strato.png)
+{{< rawhtml >}}
+<video controls autoplay muted playsinline>
+    <source src="/video/strato.mp4" type="video/mp4">
+    <img src="/images/strato.png" alt="Strato UI">
+</video>
+{{< /rawhtml >}}
 
 ## Kliento iššūkis
 
