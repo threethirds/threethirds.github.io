@@ -42,7 +42,7 @@ Mūsų sprendimas  Padėklų aptikimo sistema pagrįsta gatavų konvoliucinių n
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/lt/cases/strato/</guid>
-      <description>Modulinių namų planavimas Kliento iššūkis strato.homes yra novatoriškas startuolis, kuris projektuoja ir stato modulinius namus vos per tris mėnesius nuo įsigijimo iki įsikėlimo. Dalis jų vizijos - DI planuotojas, kuris sukurtų išplanavimo brėžinius pagal pirkėjo pasirinkimus ir jų modulinės sistemos nustatytus inžinerinius apribojimus. Mums buvo pavesta sukurti šio dirbtinio intelekto planuotojo prototipą.
+      <description>Modulinių namų planavimas  Kliento iššūkis strato.homes yra novatoriškas startuolis, kuris projektuoja ir stato modulinius namus vos per tris mėnesius nuo įsigijimo iki įsikėlimo. Dalis jų vizijos - DI planuotojas, kuris sukurtų išplanavimo brėžinius pagal pirkėjo pasirinkimus ir jų modulinės sistemos nustatytus inžinerinius apribojimus. Mums buvo pavesta sukurti šio dirbtinio intelekto planuotojo prototipą.
 Mūsų sprendimas Mūsų sprendimą sudaro trys pagrindiniai komponentai:
  Grindų plano generavimo algoritmas, kuriame planavimas formuluojamas kaip tiesinio programavimo ir apribojimų programavimo uždavinys.</description>
     </item>
