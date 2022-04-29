@@ -1,5 +1,7 @@
 # EndoArt: Aortic aneurysm segmentation and monitoring system
 
+![Automated aortic aneurysm annotation and 3D reconstruction (left) from raw DICOM images (right)](/images/turimeda.png)
+
 ## Client's challenge
 
 [Turimeda](https://www.turimeda.com/) is an early stage MedTech startup that wants to measure and monitor internal organs without tedious manual labeling effort. Their first product focuses on *abdominal aortic aneurysm* – a life-threatening condition when aorta, the main blood vessel, expands and may rupture. Turimeda aims to develop a suite of tools that would help doctors track the development of condition over time based on regularly performed CT scans. Our task was to develop an algorithm which computes the exact dimensions of aorta from the CT scans.
