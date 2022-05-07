@@ -24,7 +24,7 @@ id = 'flexblow'
 client = 'FlexBlow'
 description = 'Realaus laiko butelių kokybės kontrolė'
 img = 'icons/flexblow.png'
-topic = 'Optimali kontrolė'
+topic = 'Uždarojo ciklo kontrolė'
 
 [girteka]
 id = 'girteka'

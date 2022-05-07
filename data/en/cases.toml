@@ -24,7 +24,7 @@ id = 'flexblow'
 client = 'FlexBlow'
 description = 'Real-time bottle quality control'
 img = 'icons/flexblow.png'
-topic = 'Optimal Control'
+topic = 'Closed-Loop Control'
 
 [girteka]
 id = 'girteka'
