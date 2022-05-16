@@ -1,4 +1,4 @@
-# EndoArt: Aortic aneurysm segmentation and monitoring system
+# Aortic aneurysm segmentation and monitoring system
 
 ![Automated aortic aneurysm annotation and 3D reconstruction (left) from raw DICOM images (right)](/images/turimeda.png)
 
@@ -10,8 +10,7 @@
 
 - We built a PyTorch-based **deep neural network** for aortic aneurysm segmentation, trained for multiple days on our in-house cloud infrastructure.
 - We developed a **3D post-processing stack** for locating and measuring landmarks on the reconstructed aorta's 3D mesh.
-- We deployed our algorithm as a web service on a cloud infrastructure as well as packaged it as a standalone Docker container
-- for the on-prem deployments.
+- We deployed our algorithm as a web service on a cloud infrastructure as well as packaged it as a standalone Docker container for the on-prem deployments.
 
 ## Impact
 

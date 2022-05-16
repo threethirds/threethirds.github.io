@@ -1,4 +1,4 @@
-# EndoArt: Aortos aneurizmos segmentavimo ir stebėjimo sistema
+# Aortos aneurizmos segmentavimo ir stebėjimo sistema
 
 ![Automatinis aortos aneurizmos suanotavimas (dešinėje) ir 3D reconstrukcija (kairėje) iš DICOM vaizdų](/images/turimeda.png)
 
