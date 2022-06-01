@@ -22,7 +22,7 @@
       
       <guid>https://threethirds.ai/cases/girteka/</guid>
       <description>Operational change impact measurement Client&amp;rsquo;s challenge Girteka is the largest full truck load transport company in Europe, with more than 8000 trucks in its fleet. In 2020, they started a digital transformation and were onboarding a vendor for load planning optimization. We were tasked with assessing company&amp;rsquo;s needs and providing an accurate measurement of the impact of this optimization.
-Our solution  We delivered a suite of KPIs that were aligned with all the stakeholders, as well as an implementation of necessary computations, a dashboard for visualization, and a detailed documentation.</description>
+Our solution We delivered a suite of KPIs that were aligned with all the stakeholders, as well as an implementation of necessary computations, a dashboard for visualization, and a detailed documentation.</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@ Our solution  We delivered a suite of KPIs that were aligned with all the stakeh
       
       <guid>https://threethirds.ai/cases/rubedos/</guid>
       <description>Pallet detection and localization system Client&amp;rsquo;s challenge Rubedos is an SME specializing in mobile robotics. In 2021 they started developing an autonomous forklift platform, aiming to autonomously locate a pallet in a loading zone and transfer it to the target location. We were contracted by Rubedos to develop a pallet detection and localization stack that identifies pallets, their orientation and location from a stereo image and LIDAR inputs.
-Our solution  Pallet detection system is based on an ensemble of off-the-shelf convolutional neural networks for object detection, adapted to the constraints of Rubedos&amp;rsquo; GPU-powered VIPER stereo camera.</description>
+Our solution Pallet detection system is based on an ensemble of off-the-shelf convolutional neural networks for object detection, adapted to the constraints of Rubedos&amp;rsquo; GPU-powered VIPER stereo camera.</description>
     </item>
     
     <item>
@@ -41,7 +41,7 @@ Our solution  Pallet detection system is based on an ensemble of off-the-shelf c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/cases/strato/</guid>
-      <description>Modular house planning  Client&amp;rsquo;s challenge strato.homes is an innovative startup that designs and builds modular houses from purchase to move-in in mere three months. A part of their vision is an AI planner that would create a floor-plan based on buyer&amp;rsquo;s choices and engineering restrictions imposed by their modular system. We were contracted by strato.homes to build a prototype of the AI planner.
+      <description>Modular house planning Client&amp;rsquo;s challenge strato.homes is an innovative startup that designs and builds modular houses from purchase to move-in in mere three months. A part of their vision is an AI planner that would create a floor-plan based on buyer&amp;rsquo;s choices and engineering restrictions imposed by their modular system. We were contracted by strato.homes to build a prototype of the AI planner.
 Our solution Our solution consists of three main components:</description>
     </item>
     

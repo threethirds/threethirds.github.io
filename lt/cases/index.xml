@@ -23,7 +23,7 @@ Mūsų sprendimas Projektui reikėjo trijų komponentų: valdymo jutiklio, valdy
       
       <guid>https://threethirds.ai/lt/cases/girteka/</guid>
       <description>Veiklos pokyčių poveikio vertinimas Kliento iššūkis Girteka yra didžiausia Europoje pilnų krovinių gabenimo sunkvežimiais bendrovė, turinti daugiau kaip 8000 sunkvežimių. 2020 m. ji pradėjo skaitmeninę transformaciją ir buvo pasitelkusi tiekėją krovinių planavimo optimizavimui. Mums buvo pavesta įvertinti įmonės poreikius ir pateikti tikslų šio optimizavimo poveikio vertinimą.
-Mūsų sprendimas  Pateikėme su visomis suinteresuotosiomis šalimis suderintą KPI rinkinį, taip pat įgyvendinome reikiamus skaičiavimus, sukūrėme vizualizavimui skirtą prietaisų skydelį ir išsamią dokumentaciją. Sukūrėme Bayeso struktūrinį laiko eilučių modelį, kuris atskyrė optimizavimo sprendimo poveikį nuo kalendorinių įvykių ir verslo sezonų poveikio.</description>
+Mūsų sprendimas Pateikėme su visomis suinteresuotosiomis šalimis suderintą KPI rinkinį, taip pat įgyvendinome reikiamus skaičiavimus, sukūrėme vizualizavimui skirtą prietaisų skydelį ir išsamią dokumentaciją. Sukūrėme Bayeso struktūrinį laiko eilučių modelį, kuris atskyrė optimizavimo sprendimo poveikį nuo kalendorinių įvykių ir verslo sezonų poveikio.</description>
     </item>
     
     <item>
@@ -33,7 +33,7 @@ Mūsų sprendimas  Pateikėme su visomis suinteresuotosiomis šalimis suderintą
       
       <guid>https://threethirds.ai/lt/cases/rubedos/</guid>
       <description>Padėklų aptikimo ir lokalizavimo sistema Kliento iššūkis Rubedos yra MVĮ, kurios specializacija - mobilioji robotika. 2021 m. ji pradėjo kurti autonominio krautuvo platformą, kurios tikslas - autonomiškai nustatyti paletės buvimo vietą pakrovimo zonoje ir perkelti ją į tikslinę vietą. Bendrovė &amp;ldquo;Rubedos&amp;rdquo; su mumis sudarė sutartį, kad sukurtume padėklų aptikimo ir lokalizavimo algoritmus, kurie pagal stereovaizdą ir LIDAR įvesties duomenis nustatytų padėklus, jų orientaciją ir vietą.
-Mūsų sprendimas  Padėklų aptikimo sistema pagrįsta gatavų konvoliucinių neuroninių tinklų, ansambliu, pritaikytu prie &amp;ldquo;Rubedos&amp;rdquo; GPU varomos VIPER stereokameros apribojimų.</description>
+Mūsų sprendimas Padėklų aptikimo sistema pagrįsta gatavų konvoliucinių neuroninių tinklų, ansambliu, pritaikytu prie &amp;ldquo;Rubedos&amp;rdquo; GPU varomos VIPER stereokameros apribojimų.</description>
     </item>
     
     <item>
@@ -42,9 +42,9 @@ Mūsų sprendimas  Padėklų aptikimo sistema pagrįsta gatavų konvoliucinių n
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/lt/cases/strato/</guid>
-      <description>Modulinių namų planavimas  Kliento iššūkis strato.homes yra novatoriškas startuolis, kuris projektuoja ir stato modulinius namus vos per tris mėnesius nuo įsigijimo iki įsikėlimo. Dalis jų vizijos - DI planuotojas, kuris sukurtų išplanavimo brėžinius pagal pirkėjo pasirinkimus ir jų modulinės sistemos nustatytus inžinerinius apribojimus. Mums buvo pavesta sukurti šio dirbtinio intelekto planuotojo prototipą.
+      <description>Modulinių namų planavimas Kliento iššūkis strato.homes yra novatoriškas startuolis, kuris projektuoja ir stato modulinius namus vos per tris mėnesius nuo įsigijimo iki įsikėlimo. Dalis jų vizijos - DI planuotojas, kuris sukurtų išplanavimo brėžinius pagal pirkėjo pasirinkimus ir jų modulinės sistemos nustatytus inžinerinius apribojimus. Mums buvo pavesta sukurti šio dirbtinio intelekto planuotojo prototipą.
 Mūsų sprendimas Mūsų sprendimą sudaro trys pagrindiniai komponentai:
- Grindų plano generavimo algoritmas, kuriame planavimas formuluojamas kaip tiesinio programavimo ir apribojimų programavimo uždavinys.</description>
+Grindų plano generavimo algoritmas, kuriame planavimas formuluojamas kaip tiesinio programavimo ir apribojimų programavimo uždavinys.</description>
     </item>
     
     <item>
