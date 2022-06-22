@@ -1,6 +1,6 @@
 ---
 title: "Apribojimų programavimo pritaikymas namų planavimui"
-description: "Mes sukūrėme generatyvinį algoritmą kuris sukuria išplanavimus moduliniams namams"
+description: "Mes sukūrėme generatyvinį algoritmą, kuris sukuria modulinių namų vidaus planus"
 ---
 # Modulinių namų planavimas
 
