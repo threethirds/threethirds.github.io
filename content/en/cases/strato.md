@@ -1,3 +1,7 @@
+---
+title: "Application of Constraint Programming: Floor Plan Design"
+description: "We created a generative algorithm that designs floor plans for modular houses"
+---
 # Modular house planning 
 
 {{< rawhtml >}}

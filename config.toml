@@ -8,5 +8,14 @@ defaultContentLanguage = 'en'
 [languages]
     [languages.en]
         contentDir = 'content/en'
+        title = 'Three Thirds | High-End AI Solutions for Industry'
+        description = 'We create end-to-end machine learning solutions for manufacturing, machinery, robotics, and smart devices'
     [languages.lt]
         contentDir = 'content/lt'
+        title = 'Trys Trečiosios | Dirbtinio intelekto sprendimai industrijai'
+        description = 'Mes kuriame mašininio mokymo sprendimus gamybai, mašinerijai, robotikai ir išmaniesiems įrenginiams.'
+
+[sitemap]
+    changefreq = 'monthly'
+    filename = 'sitemap.xml'
+    priority = 0.5
