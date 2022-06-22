@@ -2,66 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://threethirds.ai/lt/cases/flexblow/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://threethirds.ai/cases/flexblow/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="lt"
-                href="https://threethirds.ai/lt/cases/flexblow/"
-                />
-  </url><url>
-    <loc>https://threethirds.ai/lt/cases/girteka/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://threethirds.ai/cases/girteka/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="lt"
-                href="https://threethirds.ai/lt/cases/girteka/"
-                />
-  </url><url>
-    <loc>https://threethirds.ai/lt/cases/rubedos/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://threethirds.ai/cases/rubedos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="lt"
-                href="https://threethirds.ai/lt/cases/rubedos/"
-                />
-  </url><url>
-    <loc>https://threethirds.ai/lt/cases/strato/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://threethirds.ai/cases/strato/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="lt"
-                href="https://threethirds.ai/lt/cases/strato/"
-                />
-  </url><url>
-    <loc>https://threethirds.ai/lt/cases/turimeda/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://threethirds.ai/cases/turimeda/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="lt"
-                href="https://threethirds.ai/lt/cases/turimeda/"
-                />
-  </url><url>
     <loc>https://threethirds.ai/lt/eu-funding/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -75,7 +15,37 @@
                 href="https://threethirds.ai/lt/eu-funding/"
                 />
   </url><url>
+    <loc>https://threethirds.ai/lt/cases/girteka/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://threethirds.ai/cases/girteka/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="lt"
+                href="https://threethirds.ai/lt/cases/girteka/"
+                />
+  </url><url>
+    <loc>https://threethirds.ai/lt/cases/strato/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://threethirds.ai/cases/strato/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="lt"
+                href="https://threethirds.ai/lt/cases/strato/"
+                />
+  </url><url>
     <loc>https://threethirds.ai/lt/cases/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -87,7 +57,51 @@
                 href="https://threethirds.ai/lt/cases/"
                 />
   </url><url>
+    <loc>https://threethirds.ai/lt/cases/flexblow/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://threethirds.ai/cases/flexblow/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="lt"
+                href="https://threethirds.ai/lt/cases/flexblow/"
+                />
+  </url><url>
+    <loc>https://threethirds.ai/lt/cases/turimeda/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://threethirds.ai/cases/turimeda/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="lt"
+                href="https://threethirds.ai/lt/cases/turimeda/"
+                />
+  </url><url>
+    <loc>https://threethirds.ai/lt/cases/rubedos/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://threethirds.ai/cases/rubedos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="lt"
+                href="https://threethirds.ai/lt/cases/rubedos/"
+                />
+  </url><url>
     <loc>https://threethirds.ai/lt/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

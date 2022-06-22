@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cases on Three Thirds</title>
+    <title>Cases on Three Thirds | High-End AI Solutions for Industry</title>
     <link>https://threethirds.ai/cases/</link>
-    <description>Recent content in Cases on Three Thirds</description>
+    <description>Recent content in Cases on Three Thirds | High-End AI Solutions for Industry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://threethirds.ai/cases/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>AI for Quality Control: PET Bottle Manufacturing Case</title>
       <link>https://threethirds.ai/cases/flexblow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -16,27 +16,7 @@
     </item>
     
     <item>
-      <title></title>
-      <link>https://threethirds.ai/cases/girteka/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://threethirds.ai/cases/girteka/</guid>
-      <description>Operational change impact measurement Client&amp;rsquo;s challenge Girteka is the largest full truck load transport company in Europe, with more than 8000 trucks in its fleet. In 2020, they started a digital transformation and were onboarding a vendor for load planning optimization. We were tasked with assessing company&amp;rsquo;s needs and providing an accurate measurement of the impact of this optimization.
-Our solution We delivered a suite of KPIs that were aligned with all the stakeholders, as well as an implementation of necessary computations, a dashboard for visualization, and a detailed documentation.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://threethirds.ai/cases/rubedos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://threethirds.ai/cases/rubedos/</guid>
-      <description>Pallet detection and localization system Client&amp;rsquo;s challenge Rubedos is an SME specializing in mobile robotics. In 2021 they started developing an autonomous forklift platform, aiming to autonomously locate a pallet in a loading zone and transfer it to the target location. We were contracted by Rubedos to develop a pallet detection and localization stack that identifies pallets, their orientation and location from a stereo image and LIDAR inputs.
-Our solution Pallet detection system is based on an ensemble of off-the-shelf convolutional neural networks for object detection, adapted to the constraints of Rubedos&amp;rsquo; GPU-powered VIPER stereo camera.</description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>Application of Constraint Programming: Floor Plan Design</title>
       <link>https://threethirds.ai/cases/strato/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -46,12 +26,32 @@ Our solution Our solution consists of three main components:</description>
     </item>
     
     <item>
-      <title></title>
+      <title>Deep Learning Based Solution for Medical Imaging</title>
       <link>https://threethirds.ai/cases/turimeda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://threethirds.ai/cases/turimeda/</guid>
       <description>Aortic aneurysm segmentation and monitoring system Client&amp;rsquo;s challenge Turimeda is an early stage MedTech startup that wants to measure and monitor internal organs without tedious manual labeling effort. Their first product focuses on abdominal aortic aneurysm – a life-threatening condition when aorta, the main blood vessel, expands and may rupture. Turimeda aims to develop a suite of tools that would help doctors track the development of condition over time based on regularly performed CT scans.</description>
+    </item>
+    
+    <item>
+      <title>Machine Vision: Application in Autonomous Forklifts</title>
+      <link>https://threethirds.ai/cases/rubedos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://threethirds.ai/cases/rubedos/</guid>
+      <description>Pallet detection and localization system Client&amp;rsquo;s challenge Rubedos is an SME specializing in mobile robotics. In 2021 they started developing an autonomous forklift platform, aiming to autonomously locate a pallet in a loading zone and transfer it to the target location. We were contracted by Rubedos to develop a pallet detection and localization stack that identifies pallets, their orientation and location from a stereo image and LIDAR inputs.
+Our solution Pallet detection system is based on an ensemble of off-the-shelf convolutional neural networks for object detection, adapted to the constraints of Rubedos&amp;rsquo; GPU-powered VIPER stereo camera.</description>
+    </item>
+    
+    <item>
+      <title>Modeling &amp; Analysis: Application in Logistics</title>
+      <link>https://threethirds.ai/cases/girteka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://threethirds.ai/cases/girteka/</guid>
+      <description>Operational change impact measurement Client&amp;rsquo;s challenge Girteka is the largest full truck load transport company in Europe, with more than 8000 trucks in its fleet. In 2020, they started a digital transformation and were onboarding a vendor for load planning optimization. We were tasked with assessing company&amp;rsquo;s needs and providing an accurate measurement of the impact of this optimization.
+Our solution We delivered a suite of KPIs that were aligned with all the stakeholders, as well as an implementation of necessary computations, a dashboard for visualization, and a detailed documentation.</description>
     </item>
     
   </channel>
