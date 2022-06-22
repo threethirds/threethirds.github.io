@@ -1,3 +1,7 @@
+---
+title: "Modeling & Analysis: Application in Logistics"
+description: "We created a counterfactual model to measure the impact of an operation change for the largest full truck load transport company in Europe"
+---
 # Operational change impact measurement
 
 ## Client's challenge

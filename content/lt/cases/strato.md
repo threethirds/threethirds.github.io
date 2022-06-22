@@ -1,3 +1,7 @@
+---
+title: "Apribojimų programavimo pritaikymas namų planavimui"
+description: "Mes sukūrėme generatyvinį algoritmą kuris sukuria išplanavimus moduliniams namams"
+---
 # Modulinių namų planavimas
 
 {{< rawhtml >}}

@@ -1,3 +1,8 @@
+---
+title: "AI for Quality Control: PET Bottle Manufacturing Case"
+description: "We built a sensor to measure PET bottle wall width and a real-time quality control algorithm"
+---
+
 # Real-time bottle blowing control system
 
 ## Client's challenge

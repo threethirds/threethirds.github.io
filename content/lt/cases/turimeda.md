@@ -1,3 +1,7 @@
+---
+title: "Giliojo mokymosi sprendimas medicininių vaizdų apdorojimui"
+description: "Mes sukūrėme giliųjų neuroninių tinklų pagrindų veikiantį sprendimą 3D kraujagyslių rekonstrukcijai ir išmatavimui"
+---
 # Aortos aneurizmos segmentavimo ir stebėjimo sistema
 
 ![Automatinis aortos aneurizmos suanotavimas (dešinėje) ir 3D reconstrukcija (kairėje) iš DICOM vaizdų](/images/turimeda.png)

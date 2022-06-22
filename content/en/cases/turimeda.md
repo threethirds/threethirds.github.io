@@ -1,3 +1,7 @@
+---
+title: "Deep Learning Based Solution for Medical Imaging"
+description: "We created a deep neural network based solution for blood vessel 3D reconstruction and measurement"
+---
 # Aortic aneurysm segmentation and monitoring system
 
 ![Automated aortic aneurysm annotation and 3D reconstruction (left) from raw DICOM images (right)](/images/turimeda.png)

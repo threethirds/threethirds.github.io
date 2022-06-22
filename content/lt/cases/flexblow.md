@@ -1,3 +1,8 @@
+---
+title: "DI kokybės kontrolei: PET butelių gamyba"
+description: "Mes sukūrėme sensorių PET butelių kokybės matavimui ir realaus laiko algoritmą kokybės palaikymui"
+---
+
 # Realaus laiko butelių pūtimo kontrolės sistema
 
 ## Kliento iššūkis

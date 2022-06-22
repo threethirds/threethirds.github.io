@@ -1,3 +1,7 @@
+---
+title: "Analizės ir modeliavimo pritaikymas logistikoje"
+description: "Mes sukūrėme priežastinį modelį ir išmatavome organizacinio pokeičio įtaką efektyvumui"
+---
 # Veiklos pokyčių poveikio vertinimas
 
 ## Kliento iššūkis

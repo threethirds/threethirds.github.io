@@ -1,3 +1,7 @@
+---
+title: "Machine Vision: Application in Autonomous Forklifts"
+description: "We created a real-time solution for pallet detection and localization from a video stream"
+---
 # Pallet detection and localization system
 
 ![Pallet detection results](/images/rubedos.png)

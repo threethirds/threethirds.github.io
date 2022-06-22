@@ -1,3 +1,7 @@
+---
+title: "Kompiuterinė rega: pritaikymas autonominiams keltuvams"
+description: "Mes sukūrėme realaus laiko kompiuterinės regos sprendimą kuris video sraute aptinka ir lokalizuoja krovinių paletes"
+---
 # Padėklų aptikimo ir lokalizavimo sistema
 
 ![Pallet detection results](/images/rubedos.png)
