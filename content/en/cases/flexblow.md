@@ -14,9 +14,9 @@ description: "We built a sensor to measure PET bottle wall width and a real-time
 The project required three components: control sensor, control software, and hardware for running quality control in production.
 
 - **Control sensor.** FlexBlow's original quality sensor turned out to be inadequate for the task, so we took a lead in designing and sourcing the parts for a new sensor. Together with Elskaifa, a third-party electronics service provider, we developed a custom low-cost sensor that can perform up to 1 million accurate measurements per second.
-- **Control software.** We developed a real-time closed-loop PID-style control system that seamlessly integrates with the main Siemens S7 PLC.
+- **Control software.** We developed a real-time closed-loop MPC-style control system that seamlessly integrates with the main Siemens S7 PLC.
 - **Hardware.** We worked together with FlexBlow's team to design such a hardware configuration that would integrate into the existing equipment without alterations.
 
 ## Impact
 
-- Our system is expected to go to production in mid-2022.
+- Our system has been successfully tested in production at FlexBlow and is being prepared for a full-time deployment.

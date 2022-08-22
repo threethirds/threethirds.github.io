@@ -14,9 +14,9 @@ description: "Mes sukūrėme sensorių PET butelių kokybės matavimui ir realau
 Projektui reikėjo trijų komponentų: valdymo jutiklio, valdymo algoritmų ir techninės įrangos, skirtos kokybės kontrolei gamyboje vykdyti.
 
 - **Kontrolės jutiklis.** Paaiškėjo, kad pradinis "FlexBlow" kokybės jutiklis neatitinka užduoties, todėl ėmėmės vadovauti projektuojant ir įsigyjant naujo jutiklio dalis. Kartu su trečiosios šalies elektronikos paslaugų teikėja "Elskaifa" sukūrėme nestandartinį nebrangų jutiklį, galintį atlikti iki 1 mln. tikslių matavimų per sekundę.
-- **Valdymo programinė įranga.** Sukūrėme realaus laiko uždarojo ciklo PID tipo valdymo sistemą, kuri sklandžiai integruojama į "FlexBlow" mašinas ir tiesiogiai komunikuoja su Siemens S7 mikro valdikliu.
+- **Valdymo programinė įranga.** Sukūrėme realaus laiko uždarojo ciklo MPC tipo valdymo sistemą, kuri sklandžiai integruojama į "FlexBlow" mašinas ir tiesiogiai komunikuoja su Siemens S7 mikrovaldikliu.
 - **Techninė įranga.** Kartu su "FlexBlow" komanda dirbome kurdami tokią techninės įrangos konfigūraciją, kuri be pakeitimų būtų integruota į esamą įrangą.
 
 ## Poveikis
 
-- Tikimasi, kad mūsų sistema bus pradėta gaminti 2022 m. viduryje.
+- Mūsų sistema buvo sėkmingai ištestuota gamybos metu FlexBlow gamykloje ir šiuo metu ruošiama nuolatiniam naudojimui.
